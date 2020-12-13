@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  hugo:
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - 1313:1313
+    tty: true
+    volumes:
+      - ./nandemo-output-blog:/hugo

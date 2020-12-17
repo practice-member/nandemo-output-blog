@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2020-12-13T09:08:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/</loc>
+    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/contact/</loc>
+    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/search/</loc>
+    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/android-and-gaming/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/game/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/go-language/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/post-1/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/post-10/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/post-11/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/post-12/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/post-13/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/post-2/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/post-3/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/post-4/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/post-5/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/post-6/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/post-7/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/post-8/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/post-9/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/html/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/html/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/html-css/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/new/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/photos/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/programming-language/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/python/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/python/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/react/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/web-design/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+</urlset>

@@ -1,0 +1,3 @@
+[submodule "nandemo-output-blog/themes/liva-hugo"]
+	path = nandemo-output-blog/themes/liva-hugo
+	url = https://github.com/themefisher/liva-hugo.git

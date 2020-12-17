@@ -5,6 +5,7 @@ theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
 disqusShortname = ""
+publishDir = "docs"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

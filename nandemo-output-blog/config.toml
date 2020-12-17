@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://practice-member.github.io/nandemo-output-blog/"
 languageCode = "ja-JP"
 title = "或いはバグでいっぱいのコード"
 theme = "liva-hugo"

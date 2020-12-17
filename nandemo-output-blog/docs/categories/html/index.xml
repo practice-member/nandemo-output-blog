@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HTML on 或いはバグでいっぱいのコード</title>
-    <link>http://example.org/categories/html/</link>
+    <link>https://practice-member.github.io/nandemo-output-blog/categories/html/</link>
     <description>Recent content in HTML on 或いはバグでいっぱいのコード</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate><atom:link href="http://example.org/categories/html/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/categories/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How To Use Checklists To Improve Your UX</title>
-      <link>http://example.org/blog/post-6/</link>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-6/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>http://example.org/blog/post-6/</guid>
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-6/</guid>
       <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
     </item>
     

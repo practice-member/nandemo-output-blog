@@ -6,7 +6,7 @@ docker-compose build --no-cache
 docker-compose up -d
 ```
 ```
-docker exec -it hugo  /bin/bash
+docker exec -it hugo /bin/bash
 ```
 ```
 hugo server -D --bind="0.0.0.0"

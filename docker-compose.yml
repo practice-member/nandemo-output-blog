@@ -2,6 +2,7 @@ version: '3'
 
 services:
   hugo:
+    container_name: hugo
     build:
       context: .
       dockerfile: dockerfile

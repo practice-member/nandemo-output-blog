@@ -4,7 +4,7 @@ date: {{ .Date }}
 draft: false
 
 # post thumb
-image: ""
+image: "images/post/.jpg"
 
 # meta description
 description: ""

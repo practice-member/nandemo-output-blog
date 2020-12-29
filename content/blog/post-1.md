@@ -1,6 +1,6 @@
 ---
 title: "Post 1"
-date: 2020-12-28T09:36:56Z
+date: 2020-12-29T07:33:34Z
 draft: true
 
 # post thumb
@@ -18,3 +18,4 @@ tags:
 
 # post type
 type: "post"
+---

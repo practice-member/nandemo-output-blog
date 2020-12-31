@@ -7,7 +7,7 @@ draft: false
 image: "images/post/post-1.jpg"
 
 # meta description
-description: ""
+description: "駆け出しエンジニアがノートパソコンを買うときに確認していることを並べたメモ書き"
 
 # taxonomies
 categories: 

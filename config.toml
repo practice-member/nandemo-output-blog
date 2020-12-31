@@ -77,7 +77,7 @@ publishDir = "docs"
 logo = "images/blog_test_logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "学んだことを何でもアウトプットするためのブログ"
 author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "Your ID"

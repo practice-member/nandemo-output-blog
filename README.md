@@ -8,7 +8,7 @@ docker-compose up -d
 ```
 docker exec -it hugo /bin/bash
 ```
-###### ■ローカルサーバー起動
+###### ■ローカルサーバー起動 (-D はドラフトも表示するオプション)
 ```
 hugo server -D --bind="0.0.0.0"
 ```

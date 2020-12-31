@@ -7,5 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <lastBuildDate>Sun, 13 Dec 2020 09:08:31 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>駆け出しエンジニアの書くノートPC観点メモ</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-1/</link>
+      <pubDate>Tue, 29 Dec 2020 07:33:34 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-1/</guid>
+      <description>はじめに アウトプットする習慣を付けるためのブログということで最初の記事はガチガチの技術は避けて、
+「駆け出しエンジニアによる駆け出しエンジニアのためのノートPC選定観点メモ」を書き流して行こうと思います。
+前提として、プログラミングを行うノートPCを選定する観点です。
+また、本記事を書いてる人がWindows派なので、基本Windowsのことを書いています。
+あくまでも経験年数少ない駆け出しの個人的な選定観点メモなので、参考程度のものです。
+OS 駆け出しエンジニアがノートPCを買うとき候補に上がるのはMacとWindowsかと思います。
+目的に合わせて自由に選んで良いと思います。
+  Macを選ぶべき人</description>
+    </item>
+    
   </channel>
 </rss>

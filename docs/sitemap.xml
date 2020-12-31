@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/blog/</loc>
+    <lastmod>2020-12-29T07:33:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/categories/</loc>
+    <lastmod>2020-12-29T07:33:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/categories/gadget/</loc>
+    <lastmod>2020-12-29T07:33:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/blog/post-1/</loc>
+    <lastmod>2020-12-29T07:33:34+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://practice-member.github.io/nandemo-output-blog/</loc>
     <lastmod>2020-12-13T09:08:31+00:00</lastmod>
   </url>
@@ -20,10 +40,6 @@
   <url>
     <loc>https://practice-member.github.io/nandemo-output-blog/search/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://practice-member.github.io/nandemo-output-blog/categories/</loc>
   </url>
   
   <url>

@@ -6,7 +6,17 @@
     <description>Recent content in Blogs on 或いはバグでいっぱいのコード</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 29 Dec 2020 07:33:34 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Dec 2020 07:33:38 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dockerを使うメリットを最低限の説明に絞って解説してみる</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-2/</link>
+      <pubDate>Tue, 29 Dec 2020 07:33:38 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-2/</guid>
+      <description>経緯 「Dockerを使用するメリットがわからない」という質問を受けたので、
+Dockerを使うと何が嬉しいか、とても簡潔に説明します。</description>
+    </item>
+    
     <item>
       <title>駆け出しエンジニアの書くノートPC購入時の観点メモ</title>
       <link>https://practice-member.github.io/nandemo-output-blog/blog/post-1/</link>

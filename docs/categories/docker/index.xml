@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on 或いはバグでいっぱいのコード</title>
+    <link>https://practice-member.github.io/nandemo-output-blog/categories/docker/</link>
+    <description>Recent content in Docker on 或いはバグでいっぱいのコード</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Tue, 29 Dec 2020 07:33:38 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dockerを使うメリットを最低限の説明に絞って解説してみる</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-2/</link>
+      <pubDate>Tue, 29 Dec 2020 07:33:38 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-2/</guid>
+      <description>経緯 「Dockerを使用するメリットがわからない」という質問を受けたので、
+Dockerを使うと何が嬉しいか、とても簡潔に説明します。</description>
+    </item>
+    
+  </channel>
+</rss>

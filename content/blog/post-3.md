@@ -1,7 +1,7 @@
 ---
 title: "Dockerfileのベストプラクティスを考えてみた"
 date: 2020-12-29T07:33:43Z
-draft: true
+draft: false
 
 # post thumb
 image: "images/post/post-3/docker-logo.png"

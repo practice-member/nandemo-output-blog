@@ -8,6 +8,15 @@
     <language>ja-JP</language>
     <lastBuildDate>Sun, 13 Dec 2020 09:08:31 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Dockerfileのベストプラクティスを考えてみた</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-3/</link>
+      <pubDate>Tue, 29 Dec 2020 07:33:43 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-3/</guid>
+      <description>イメージサイズは出来るだけ軽くする  scratchやalpineなど軽量なベースイメージを選択する ランタイムに必要なファイルのみCOPYする 不要なパッケージのインストールを控える レイヤを減らす  レイヤの減らし方  RUNで実行する場合は、&amp;amp;&amp;amp;で連結させる マルチステージビルドを利用する  マルチステージビルドを利用した例  ADDを利用したアンチパターン  BADパターン</description>
+    </item>
+    
+    <item>
       <title>Dockerを使うメリットを最低限の説明に絞って解説してみる</title>
       <link>https://practice-member.github.io/nandemo-output-blog/blog/post-2/</link>
       <pubDate>Tue, 29 Dec 2020 07:33:38 +0000</pubDate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker-compose on 或いはバグでいっぱいのコード</title>
+    <link>https://practice-member.github.io/nandemo-output-blog/categories/docker-compose/</link>
+    <description>Recent content in docker-compose on 或いはバグでいっぱいのコード</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Tue, 29 Dec 2020 07:33:46 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/categories/docker-compose/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker-composeのトピックス</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-4/</link>
+      <pubDate>Tue, 29 Dec 2020 07:33:46 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-4/</guid>
+      <description>コンテナ名を指定する イメージを利用しない場合はビルド指定する コンテナ同士の依存関係がある場合は起動順序を指定する 永続的なデータやファイルがある場合はvolumesを指定する コンテナ同士の疎通がある場合はnetworksを利用する docker-composeを分割しコンテナ間の疎通がある場合のnetworks指定方法 明記するnetworks名はプレフィックスを忘れないようにする</description>
+    </item>
+    
+  </channel>
+</rss>

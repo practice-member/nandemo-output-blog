@@ -12,7 +12,7 @@ docker exec -it hugo /bin/bash
 ```
 hugo server -D --bind="0.0.0.0"
 ```
-###### ■コンパイル
+###### ■コンパイル(管理者のみ使用)
 ```
 hugo
 ```

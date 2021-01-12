@@ -60,7 +60,7 @@ the HIATUSは、２００８年に活動休止となったELLEGARDEN（２０１
 #### [３.Horse Riding](https://www.youtube.com/watch?v=itc28UB_RRc)
 [![Horse Riding](../../images/post/post-7/Horse-Riding.jpg)](https://www.youtube.com/watch?v=itc28UB_RRc "Horse Riding")
 
-この曲は２０１３年の７月にEPとしてリリースされて、その後２０１４年の３月にリリースされたフォースアルバム「Keeper Of The Flame」にも収録されています。
+この曲は２０１３年の７月にEPとしてリリースされ、その後２０１４年の３月にリリースされたフォースアルバム「Keeper Of The Flame」にも収録されています。
 
 EPが発売されてすぐリリースツアーが行われ、このライブにも当然参戦しましたが、ライブハウスでライブを見るのは初めてで、しかも一人だったため不安と期待で精神がめちゃくちゃだったのを覚えています。
 

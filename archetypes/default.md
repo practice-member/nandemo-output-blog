@@ -3,6 +3,10 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 
+# author's github account name
+author:
+ - ""
+
 # post thumb
 image: "images/post/.jpg"
 

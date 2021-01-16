@@ -3,6 +3,11 @@ title: "駆け出しエンジニアの書くノートPC購入時の観点メモ"
 date: 2020-12-29T07:33:34Z
 draft: false
 
+# author's github account name
+author:
+ - "Kawaken555"
+
+
 # post thumb
 image: "images/post/post-1.jpg"
 

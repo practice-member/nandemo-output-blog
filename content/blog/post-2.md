@@ -3,6 +3,12 @@ title: "Dockerを使うメリットを最低限の説明に絞って解説して
 date: 2020-12-29T07:33:38Z
 draft: false
 
+
+# author's github account name
+author:
+ - "Kawaken555"
+
+
 # post thumb
 image: "images/post/post-2/whale.jpg"
 

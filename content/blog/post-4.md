@@ -3,6 +3,10 @@ title: "docker-composeのトピックス"
 date: 2020-12-29T07:33:46Z
 draft: false
 
+# author's github account name
+author:
+ - "greenwakame"
+
 # post thumb
 image: "images/post/post-4/docker-compose-logo.png"
 

@@ -3,6 +3,10 @@ title: "Dockerfileのベストプラクティスを考えてみた"
 date: 2020-12-29T07:33:43Z
 draft: false
 
+# author's github account name
+author:
+ - "greenwakame"
+
 # post thumb
 image: "images/post/post-3/docker-logo.png"
 

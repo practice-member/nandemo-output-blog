@@ -77,7 +77,7 @@ home = "Home"
 description = "学んだことを何でもアウトプットするためのブログ"
 author = "Practice Members"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "UA-188041491-1"
 # copyright
 copyright = "| copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved |"
 

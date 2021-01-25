@@ -26,8 +26,10 @@ type: "post"
 
 ### はじめに
 
+***
 
 Hugoでのサイト構築に困っている人向けの記事です。  
+
 詳しくは、当サイトのヘッダーにあるGithubリンクから  
 当ブログのレポジトリ内のファイル構成を見てください。   
 
@@ -35,17 +37,20 @@ Hugoでのサイト構築に困っている人向けの記事です。
 
 ### Hugoのフォルダの役割について
 
-#### ■blog-project\content\
+***
+
+#### ■blog-project/content
 
 
 ブログ記事を作成し格納するためのフォルダです。  
+
 「hugo」コマンドにより、  
 このフォルダ内のマークダウンファイルがコンパイルされます。  
 
 
 
 
-#### ■blog-project\docs\
+#### ■blog-project/docs
 
 
 Github Pages に記事を公開するためのフォルダです。    
@@ -63,21 +68,22 @@ docsフォルダ を使用する方法で Github Pages を使いたい場合は�
 
 
 
-#### ■blog-project\layouts\
+#### ■blog-project/layouts
 
-使用しているテーマの画面構成を書き換えたいときに使用します。  
+使用しているテーマの画面構成を書き換えたいときに使用します。
+  
 下記で解説している themesフォルダ 内の layoutsフォルダ から、  
 画面構成を変更したい htmlファイル をコピーし、  
-blog-project\layouts\ に格納します。  
+blog-project/layouts に格納します。  
 
 
-themesフォルダ よりも blog-project\layouts\ のファイルの  
+themesフォルダ よりも blog-project/layouts のファイルの  
 内容が優先して画面に表示されるので、
-blog-project\layouts\ 内に格納したファイルを  
+blog-project/layouts 内に格納したファイルを  
 変更することで画面表示を変えることができます。
 
-liva-hugoの場合は themes\liva-hugo\layouts のファイルを  
-全て blog-project\layouts\ へコピーしました。  
+liva-hugoの場合は themes/liva-hugo/layouts のファイルを  
+全て blog-project/layouts へコピーしました。  
 
 編集したいファイルだけ個別にコピーしたところ、エラーが発生したからです。   
 テーマによっては個別に編集対応できるのかもしれません。  
@@ -97,7 +103,7 @@ liva-hugoの場合は themes\liva-hugo\layouts のファイルを
 
 
 
-#### ■blog-project\themes\
+#### ■blog-project/themes
 
 
 使用しているテーマが格納されたフォルダです。  
@@ -112,7 +118,7 @@ demoサイトと同じものが作れます。
 
 
 
-#### ■blog-project\static\
+#### ■blog-project/static
 
 
 記事で使用する画像などを保管しておくフォルダです。   

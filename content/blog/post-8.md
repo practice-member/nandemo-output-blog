@@ -3,6 +3,10 @@ title: "夢をかなえるゾウを１０年以上ぶりに読み返した"
 date: 2020-12-29T07:33:54Z
 draft: false
 
+# author's github account name
+author:
+ - "be-be-s"
+
 # post thumb
 image: "images/post/post-8/ganesha.jpg"
 

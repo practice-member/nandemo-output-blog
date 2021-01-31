@@ -3,6 +3,10 @@ title: "好きなバンドをただ語る"
 date: 2020-12-29T07:33:51Z
 draft: false
 
+# author's github account name
+author:
+ - "be-be-s"
+
 # post thumb
 image: "images/post/post-7/hiatus.jpg"
 

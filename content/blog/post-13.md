@@ -1,7 +1,11 @@
 ---
 title: "Post 13"
-date: 2021-01-10T07:56:36Z
+date: 2021-01-31T08:55:56Z
 draft: true
+
+# author's github account name
+author:
+ - ""
 
 # post thumb
 image: "images/post/.jpg"

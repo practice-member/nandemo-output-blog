@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analytics on 或いはバグでいっぱいのコード</title>
+    <link>https://practice-member.github.io/nandemo-output-blog/categories/analytics/</link>
+    <description>Recent content in Analytics on 或いはバグでいっぱいのコード</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Tue, 29 Dec 2020 07:33:56 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/categories/analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Analyticsを導入してみた</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-9/</link>
+      <pubDate>Tue, 29 Dec 2020 07:33:56 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-9/</guid>
+      <description>アカウント設定 Google Analyticsの公式へアクセスし、「無料で設定」をクリック 「アカウント名」を入力し、不要であればチェックを外す プロパティ設定 レポートのタイムゾーンを「日本」に変更 通貨を「円」に変更 プロパティ名を入力 「詳細オプションを表示」をクリック 「ウェブサイトのURL」を入力 ビジネス概要設定 「業種」を選択 「ビジネスの規模」を選択 「作成」をクリック後、「同意」する ウェブストリームの詳細 トラッキングIDが表示されている箇所 「管理」をクリック 「トラッキング情報」をクリック 「トラッキングID」配下に表示されている 「HUGO」 config.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -74,7 +74,7 @@ publishDir = "docs"
 logo = "images/blog_test_logo.png"
 home = "Home"
 # Meta data
-description = "学んだことを何でもアウトプットするためのブログ"
+description = "或いはバグでいっぱいのコード"
 author = "Practice Members"
 # Google Analitycs
 googleAnalitycsID = "UA-188041491-1"

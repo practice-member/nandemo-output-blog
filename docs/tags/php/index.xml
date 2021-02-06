@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHP on 或いはバグでいっぱいのコード</title>
+    <link>https://practice-member.github.io/nandemo-output-blog/tags/php/</link>
+    <description>Recent content in PHP on 或いはバグでいっぱいのコード</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sun, 31 Jan 2021 08:55:58 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>インターン用環境をDockerで作ってみた(MySQL編)</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-14/</link>
+      <pubDate>Sun, 31 Jan 2021 08:55:58 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-14/</guid>
+      <description>経緯 私の所属会社は頻繁にインターン生を招いて研修を行っています。
+先日その講師を頼まれました。</description>
+    </item>
+    
+  </channel>
+</rss>

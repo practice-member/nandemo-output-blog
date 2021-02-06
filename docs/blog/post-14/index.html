@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="或いはバグでいっぱいのコード">
+  <meta name="description" content="PHP、MySQL環境をDockerで作ってみた">
   <meta name="author" content="Practice Members">
   <meta name="generator" content="Hugo 0.79.0" />
 
@@ -128,127 +128,179 @@
 </header>
 <!-- /navigation -->
 
-
 <section class="section-sm">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mb-5 mb-lg-0">
-        <div class="row">
-          
-          
-          <div class="col-md-6 mb-4">
-    <article class="card">
-        
-        <img src="https://practice-member.github.io/nandemo-output-blog/images/post/post-4/docker-compose-logo.png" class="card-img-top" alt="docker-composeのトピックス">
-        
-        <div class="card-body px-0">
+      <div class="col-lg-8 mx-auto">
         
         <a href="/nandemo-output-blog/categories/docker"
-            class="text-primary">Docker</a>
+          class="text-primary">Docker</a>
         
-        <a href="/nandemo-output-blog/categories/docker-compose"
-            class="text-primary">Docker compose</a>
-        
-        <a href="https://practice-member.github.io/nandemo-output-blog/blog/post-4/" class="h5 d-block my-3">docker-composeのトピックス</a>
+        <h2>インターン用環境をDockerで作ってみた(MySQL編)</h2>
         <div class="mb-3 post-meta">
-            <span>By [greenwakame]</span>
-            
-            <span class="border-bottom border-primary px-2 mx-1"></span>
-            <span>29 December 2020</span>
-            
-        </div>
-        <p class="card-text">コンテナ名を指定する イメージを利用しない場合はビルド指定する コンテナ同士の依存関係がある場合は起動順序を指定する 永続的なデータやファイルがある場合はvolumesを指定する コンテナ同士の疎通がある場合はnetworksを利用する docker-composeを分割しコンテナ間の疎通がある場合のnetworks指定方法 明記するnetworks名はプレフィックスを忘れないようにする</p>
-        <a href="https://practice-member.github.io/nandemo-output-blog/blog/post-4/" class="btn btn-outline-primary">read more</a>
-        </div>
-    </article>
-</div>
+          <span>By [Kawaken555]</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>31 January 2021</span>
           
         </div>
-      </div>
-      
-      <div class="col-lg-4">
-  
-  <div class="widget">
-    
-    <h4 class="widget-title">About Me</h4>
-    
-    <img src="https://practice-member.github.io/nandemo-output-blog/images/author.jpg" alt=""
-      class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
-    
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-    <a href="https://practice-member.github.io/nandemo-output-blog/about/" class="btn btn-outline-primary">Know More</a>
-    
-  </div>
-  
-  <div class="widget">
-    <h4 class="widget-title">Category</h4>
-    <ul class="list-unstyled">
-      <li><a href="/nandemo-output-blog/categories/analytics">Analytics</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/docker">Docker</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/docker-compose">Docker compose</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/gadget">Gadget</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/hobby">Hobby</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/static-site-generator">Static site generator</a>
-      </li>
-    </ul>
-  </div>
-  
-  <div class="widget">
-    <h4 class="widget-title">Tag</h4>
-    <ul class="list-inline">
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/google-analytics">Google analytics</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/hugo">Hugo</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/mysql">Mysql</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/php">Php</a></li>
-    </ul>
-  </div>
-
-  
-  <div class="widget">
-    <h4 class="widget-title">Social</h4>
-    <ul class="list-inline social-links">
-      
-      
-      
-      
-      
-      
-      
-      
-      <li class="list-inline-item"><a href="https://github.com/practice-member/nandemo-output-blog"><i class="ti-github"></i></a></li>
-      
-      
-      
-      
-    </ul>
-  </div>
-
-  
-  <div class="widget">
-    <img src="https://practice-member.github.io/nandemo-output-blog/images/promotion.png" alt="" class="img-fluid">
-  </div>
-</div>
-      
-
-      
-      <div class="col-12 mt-5">
         
+        <img src="https://practice-member.github.io/nandemo-output-blog/images/post/post-14/post-14.jpg" class="img-fluid w-100 mb-4" alt="インターン用環境をDockerで作ってみた(MySQL編)">
+        
+        <div class="content mb-5">
+          <h3 id="経緯">経緯</h3>
+<p>私の所属会社は頻繁にインターン生を招いて研修を行っています。<br>
+先日その講師を頼まれました。</p>
+<p>環境はXAMPPで作成し、Apache+PHP+MySQLを使用します。<br>
+古いバージョンのXAMPPを使用しており、PHPが5.6でした。</p>
+<p>特に古いバージョンを選んでいる理由がないようなので、<br>
+合わせる必要はないかなと思って詳細に覚えてないです。</p>
+<p>さて、講師を行うにあたり自分も環境構築しようと思ったのですが、<br>
+正直自分のPCにXAMPP入れたくないという気持ちがモリモリ。</p>
+<p>そこで勉強がてらDockerで環境を構築してみました。<br>
+本記事はそのなかでも、MySQL関係のファイルについて忘備録です。</p>
+<p>自分の後任もワンライナーで環境構築できるようになって良いことづくめ。<br>
+やったね。</p>
+<p>コードはリモートレポジトリにPush済みです。 <br>
+URLは以下になります。</p>
+<p><a href="https://github.com/Kawaken555/docker-php-apache-mysql">https://github.com/Kawaken555/docker-php-apache-mysql</a></p>
+<h3 id="各ファイルについて">各ファイルについて</h3>
+<h4 id="docker-compose">docker-compose</h4>
+<pre><code>version: '3'
+services:
+    mysql:
+        container_name: mysql
+        build: ./docker/db
+        environment:
+            - MYSQL_DATABASE=db1
+            - MYSQL_ROOT_USER=root
+            - MYSQL_PASSWORD=mysql           
+            - MYSQL_ROOT_PASSWORD=mysql
+        volumes:
+            - ./docker/db/data:/var/lib/mysql
+            - ./docker/db/sql:/docker-entrypoint-initdb.d
+        ports:
+            - &quot;3306:3306&quot;
+        restart: always
 
+    apache-php:
+        container_name: php
+        build: ./docker/php
+        ports:
+            - &quot;80:80&quot;
+        volumes:
+            - ./src:/var/www/html
+        links:
+            - 'mysql'
+        restart: always
+</code></pre><ul>
+<li>
+<p>「container_name」はコンテナの名前をつけています。<br>
+PHPからDBを呼ぶ際に、hostとしてコンテナ名を呼ぶので、わかりやすく短めの名前をつけます。<br>
+「container_name」をつけないと「プロジェクト名-mysql_1」のような長い名前がつけられてしまいます。</p>
+</li>
+<li>
+<p>「build」には、./docker/db のdockerfileを使ってbuildしますよーということが記載してあります。</p>
+</li>
+<li>
+<p>「environment」は環境変数を使いMySQLの初期設定を設定。</p>
+</li>
+<li>
+<p>「volumes」ではホスト側のディレクトリをコンテナ内のディレクトリにマウントしています。</p>
+</li>
+<li>
+<p>MySQL公式のimageでは、「docker-entrypoint-initdb.d」に初期化用SQLを入れておくと、imageを起動した際に自動でSQLを実行してくれます。</p>
+</li>
+<li>
+<p>「./docker/db/sql:/var/lib/mysql」ではDBやテーブルのファイルがマウントされます。</p>
+</li>
+</ul>
+<h3 id="dockerfilemysql">dockerfile(MySQL)</h3>
+<pre><code>FROM mysql:latest
 
+RUN apt-get update &amp;&amp; apt-get install --no-install-recommends -y \
+  locales \
+  &amp;&amp; apt-get autoremove -y \
+  &amp;&amp; rm -rf /var/lib/apt/lists/* \
+  &amp;&amp; sed -i -E 's/# (ja_JP.UTF-8)/\1/' /etc/locale.gen \
+  &amp;&amp; locale-gen 
+
+ENV LANG ja_JP.UTF-8
+
+COPY ./my.cnf /etc/mysql/conf.d/my.cnf
+
+RUN chmod 644 /etc/mysql/conf.d/*
+
+</code></pre><ul>
+<li>
+<p>「FROM mysql:8.0.17」で使用するimageを指定しています。</p>
+</li>
+<li>
+<p>「RUN apt-get update」ではパッケージを更新。</p>
+</li>
+<li>
+<p>「apt-get install -y \ locales」でlocaleコマンドをインストール。</p>
+</li>
+<li>
+<p>「&amp;&amp; apt-get autoremove -y &amp;&amp; rm -rf /var/lib/apt/lists/*」でキャッシュ等を削除しimageの大きさを削減。</p>
+</li>
+<li>
+<p>「sed -i -E &rsquo;s/# (ja_JP.UTF-8)/\1/' /etc/locale.gen」 で etc/locale.gen を書き換え。<br>
+# を削除。</p>
+</li>
+<li>
+<p>「locale-gen」コマンドで、locale.genファイルに書いてあるロケールを生成。</p>
+</li>
+<li>
+<p>「ENV LANG ja_JP.UTF-8」で環境変数に日本語を設定。</p>
+</li>
+<li>
+<p>「COPY ./my.cnf /etc/mysql/conf.d/my.cnf」で予め用意しておいたMySQLの設定ファイルをコンテナへコピー。</p>
+</li>
+<li>
+<p>「RUN chmod 644 /etc/mysql/conf.d/*」 で設定ファイルの権限を変更。<br>
+権限を変更については、以下のURLによると理由はこんな感じ。</p>
+<ul>
+<li>mysql は File の Permission が 777 の .cnf を読まない。</li>
+<li>Windows からマウントしているディレクトリ/ファイルはすべて 777 になる。</li>
+<li>/etc/mysql/conf.d で volume 指定したファイルも 777 になる。</li>
+</ul>
+</li>
+</ul>
+<pre><code>https://qiita.com/waterada/items/1dbf6a977611e0e8f5c8
+</code></pre><h3 id="myini">my.ini</h3>
+<pre><code>[mysql]
+default-character-set=utf8mb4
+
+[mysqld]
+character-set-server=utf8mb4
+collation-server=utf8mb4_general_ci
+general-log=1
+general-log-file=/var/log/mysql/mysqld.log
+default_authentication_plugin=mysql_native_password
+
+[client]
+default-character-set=utf8
+</code></pre><p>やってることはほぼ文字化け対策。<br>
+utf8ではなくutf8mb4になっている箇所は後に 🍺=🍣問題や ハハパパ問題 について調べるときに修正するので気にしないでください。</p>
+<p>「default_authentication_plugin=mysql_native_password」が曲者でハマリポイント。</p>
+<p>MySQL8.0.4以降はデフォルトの認証方法が変更されましたが、<br>
+PHPの接続ライブラリが新しい認証方法に対応していていないため、<br>
+ここを書き換えてあげる必要があります。</p>
+<h3 id="まとめ">まとめ</h3>
+<p>MySQL編はこれで終了です。<br>
+PHP編は書くつもりですがいつになることやら。。。</p>
+<p>実際にdockerfileやdocker-composeを作って手を動かすことで理解がdockerに対する理解が深まりました。<br>
+今回作ったファイルを叩き台として、色々試していきたいです。</p>
+
+        </div>
+
+        
+        
       </div>
     </div>
   </div>
 </section>
-
 
 
 

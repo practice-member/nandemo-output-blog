@@ -127,6 +127,9 @@ RUN chmod 644 /etc/mysql/conf.d/*
 
 ```
 
+* 「RUN」を「&&」でつなげている理由は以下の記事をご覧ください。  
+https://practice-member.github.io/nandemo-output-blog/blog/post-3/
+
 * 「FROM mysql:8.0.17」で使用するimageを指定しています。  
 
 * 「RUN apt-get update」ではパッケージを更新。  

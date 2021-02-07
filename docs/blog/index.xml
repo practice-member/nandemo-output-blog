@@ -6,7 +6,17 @@
     <description>Recent content in Blogs on 或いはバグでいっぱいのコード</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 31 Jan 2021 08:55:58 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Jan 2021 08:56:00 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wordpressの導入したから取り急ぎセキュリティ強化だけやってみた</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-15/</link>
+      <pubDate>Sun, 31 Jan 2021 08:56:00 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-15/</guid>
+      <description>■経緯 知人からwordpressでブログを作って欲しいと依頼されました。
+依頼者から指定があったので、</description>
+    </item>
+    
     <item>
       <title>インターン用環境をDockerで作ってみた(MySQL編)</title>
       <link>https://practice-member.github.io/nandemo-output-blog/blog/post-14/</link>

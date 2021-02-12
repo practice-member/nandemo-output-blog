@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mobile on 或いはバグでいっぱいのコード</title>
+    <link>https://practice-member.github.io/nandemo-output-blog/categories/mobile/</link>
+    <description>Recent content in mobile on 或いはバグでいっぱいのコード</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Fri, 12 Feb 2021 13:56:56 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AndroidのespressoでDatepickerのテストをする時の忘備録</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-20/</link>
+      <pubDate>Fri, 12 Feb 2021 13:56:56 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-20/</guid>
+      <description>■結論 以下のコードで実行できます
+なお、kotlinです。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,17 @@
     <description>Recent content in Blogs on 或いはバグでいっぱいのコード</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 31 Jan 2021 08:56:00 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Feb 2021 13:56:56 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AndroidのespressoでDatepickerのテストをする時の忘備録</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-20/</link>
+      <pubDate>Fri, 12 Feb 2021 13:56:56 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-20/</guid>
+      <description>■結論 以下のコードで実行できます
+なお、kotlinです。</description>
+    </item>
+    
     <item>
       <title>Wordpressの導入したから取り急ぎセキュリティ強化だけやってみた</title>
       <link>https://practice-member.github.io/nandemo-output-blog/blog/post-15/</link>

@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="或いはバグでいっぱいのコード">
+  <meta name="description" content="AndroidのespressoでDatepickerのテストをする時ハマったこと">
   <meta name="author" content="Practice Members">
   <meta name="generator" content="Hugo 0.79.0" />
 
@@ -128,133 +128,74 @@
 </header>
 <!-- /navigation -->
 
-
 <section class="section-sm">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mb-5 mb-lg-0">
-        <div class="row">
-          
-          
-          <div class="col-md-6 mb-4">
-    <article class="card">
+      <div class="col-lg-8 mx-auto">
         
-        <img src="https://practice-member.github.io/nandemo-output-blog/images/post/post-14/post-14.jpg" class="card-img-top" alt="インターン用環境をDockerで作ってみた(MySQL編)">
+        <a href="/nandemo-output-blog/categories/mobile"
+          class="text-primary">Mobile</a>
         
-        <div class="card-body px-0">
-        
-        <a href="/nandemo-output-blog/categories/docker"
-            class="text-primary">Docker</a>
-        
-        <a href="https://practice-member.github.io/nandemo-output-blog/blog/post-14/" class="h5 d-block my-3">インターン用環境をDockerで作ってみた(MySQL編)</a>
+        <h2>AndroidのespressoでDatepickerのテストをする時の忘備録</h2>
         <div class="mb-3 post-meta">
-            <span>By [Kawaken555]</span>
-            
-            <span class="border-bottom border-primary px-2 mx-1"></span>
-            <span>31 January 2021</span>
-            
-        </div>
-        <p class="card-text">経緯 私の所属会社は頻繁にインターン生を招いて研修を行っています。
-先日その講師を頼まれました。</p>
-        <a href="https://practice-member.github.io/nandemo-output-blog/blog/post-14/" class="btn btn-outline-primary">read more</a>
-        </div>
-    </article>
-</div>
+          <span>By [Kawaken555]</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>12 February 2021</span>
           
         </div>
-      </div>
-      
-      <div class="col-lg-4">
-  
-  <div class="widget">
-    
-    <h4 class="widget-title">About Me</h4>
-    
-    <img src="https://practice-member.github.io/nandemo-output-blog/images/author.jpg" alt=""
-      class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
-    
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-    <a href="https://practice-member.github.io/nandemo-output-blog/about/" class="btn btn-outline-primary">Know More</a>
-    
-  </div>
-  
-  <div class="widget">
-    <h4 class="widget-title">Category</h4>
-    <ul class="list-unstyled">
-      <li><a href="/nandemo-output-blog/categories/analytics">Analytics</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/docker">Docker</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/docker-compose">Docker compose</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/gadget">Gadget</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/hobby">Hobby</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/mobile">Mobile</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/static-site-generator">Static site generator</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/wordpress">Wordpress</a>
-      </li>
-    </ul>
-  </div>
-  
-  <div class="widget">
-    <h4 class="widget-title">Tag</h4>
-    <ul class="list-inline">
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/android">Android</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/espresso">Espresso</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/google-analytics">Google analytics</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/hugo">Hugo</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/mysql">Mysql</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/php">Php</a></li>
-    </ul>
-  </div>
-
-  
-  <div class="widget">
-    <h4 class="widget-title">Social</h4>
-    <ul class="list-inline social-links">
-      
-      
-      
-      
-      
-      
-      
-      
-      <li class="list-inline-item"><a href="https://github.com/practice-member/nandemo-output-blog"><i class="ti-github"></i></a></li>
-      
-      
-      
-      
-    </ul>
-  </div>
-
-  
-  <div class="widget">
-    <img src="https://practice-member.github.io/nandemo-output-blog/images/promotion.png" alt="" class="img-fluid">
-  </div>
-</div>
-      
-
-      
-      <div class="col-12 mt-5">
         
+        <img src="https://practice-member.github.io/nandemo-output-blog/images/post/post-20/post-20.jpg" class="img-fluid w-100 mb-4" alt="AndroidのespressoでDatepickerのテストをする時の忘備録">
+        
+        <div class="content mb-5">
+          <h3 id="結論">■結論</h3>
+<p>以下のコードで実行できます<br>
+なお、kotlinです。</p>
+<pre><code>onView(withClassName(Matchers.equalTo(DatePicker::class.java.name))).perform(
+    setDate(
+        year,
+        month,
+        day
+    )
+)
+</code></pre><h3 id="解説">■解説</h3>
+<h4 id="datepickerを特定する">Datepickerを特定する</h4>
+<p>つい何でもwithId()で行いたくなりますが、以下を見るとDatepickerはwithId()では扱えないそうです。</p>
+<p>「実行時に、AndroidはDatePickerのIDを複数のサブ要素間で共有するため&quot;withId&quot; は使用しないでください。」<br>
+だそうな。<br>
+<a href="https://stackoverflow.com/questions/30597680/android-epresso-datepicker-click-on-ok-add-a-year-instead-of-validate">https://stackoverflow.com/questions/30597680/android-epresso-datepicker-click-on-ok-add-a-year-instead-of-validate</a></p>
+<p>実際withId()を使用すると以下のエラーが出ます。</p>
+<pre><code>androidx.test.espresso.NoMatchingViewException: 
+No views in hierarchy found matching: with id is &lt;プロジェクト名/View名&gt;
+</code></pre><p>なのでwithClassName()を使用します。</p>
+<h4 id="datepickerに値を入力する">datepickerに値を入力する</h4>
+<p>datepickerへ値を入力する際には、まず以下のライブラリをgradleに追加します。</p>
+<pre><code>androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.3.0'
+</code></pre><p>そして以下のメソッドを使用します。</p>
+<pre><code>PickerActions.setDate()
+</code></pre><p>最終的に、以下のコードとなります。</p>
+<pre><code>onView(withId(R.id.datePicker)).perform(click())
+onView(withClassName(Matchers.equalTo(DatePicker::class.java.name))).perform(
+    setDate(
+        year,
+        month,
+        day
+    )
+)
+onView(withText(&quot;OK&quot;)).perform(click());
+</code></pre><h3 id="最後に">■最後に</h3>
+<p>意外と詰まったのでメモとして残しておこうと思い記事にしました。<br>
+未熟故にコードがわかりにくくなっており、今後大規模なリファクタリングをせねばなりません。<br>
+そのときに備え、セコセコUIテストを作ろうと思います。</p>
 
+        </div>
 
+        
+        
       </div>
     </div>
   </div>
 </section>
-
 
 
 

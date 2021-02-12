@@ -1,5 +1,5 @@
 ---
-title: "AndroidのespressoでDatepickerのテストをする時の忘備録"
+title: "AndroidのespressoでDatepickerの入力テストをする時の忘備録"
 date: 2021-02-12T13:56:56Z
 draft: false
 
@@ -11,7 +11,7 @@ author:
 image: "images/post/post-20/post-20.jpg"
 
 # meta description
-description: "AndroidのespressoでDatepickerのテストをする時ハマったこと"
+description: "AndroidのespressoでDatepickerの入力テストをする時ハマったこと"
 
 # taxonomies
 categories: 

@@ -133,65 +133,69 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <a href="/nandemo-output-blog/categories/docker"
-          class="text-primary">Docker</a>
+        <a href="/nandemo-output-blog/categories/survey"
+          class="text-primary">Survey</a>
         
-        <a href="/nandemo-output-blog/categories/docker-compose"
-          class="text-primary">Docker compose</a>
-        
-        <h2>docker-composeのトピックス</h2>
+        <h2>Flaskについて調べてみました</h2>
         <div class="mb-3 post-meta">
           <span>By [greenwakame]</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>29 December 2020</span>
+          <span>06 February 2021</span>
           
         </div>
         
-        <img src="https://practice-member.github.io/nandemo-output-blog/images/post/post-4/docker-compose-logo.png" class="img-fluid w-100 mb-4" alt="docker-composeのトピックス">
+        <img src="https://practice-member.github.io/nandemo-output-blog/images/post/post-16/flask-icon.png" class="img-fluid w-100 mb-4" alt="Flaskについて調べてみました">
         
         <div class="content mb-5">
-          <h3 id="コンテナ名を指定する">コンテナ名を指定する</h3>
-<p><img src="../../images/post/post-4/sample-code1.png" alt="コンテナ名を指定するした例"></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h3 id="イメージを利用しない場合はビルド指定する">イメージを利用しない場合はビルド指定する</h3>
-<p><img src="../../images/post/post-4/sample-code2.png" alt="イメージを利用しない場合はビルド指定するした例"></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h3 id="コンテナ同士の依存関係がある場合は起動順序を指定する">コンテナ同士の依存関係がある場合は起動順序を指定する</h3>
-<p><img src="../../images/post/post-4/sample-code3.png" alt="コンテナ同士の依存関係がある場合は起動順序を指定するした例"></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h3 id="永続的なデータやファイルがある場合はvolumesを指定する">永続的なデータやファイルがある場合はvolumesを指定する</h3>
-<p><img src="../../images/post/post-4/sample-code4.png" alt="永続的なデータやファイルがある場合はvolumesを指定するした例"></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h3 id="コンテナ同士の疎通がある場合はnetworksを利用する">コンテナ同士の疎通がある場合はnetworksを利用する</h3>
-<p><img src="../../images/post/post-4/sample-code5.png" alt="コンテナ同士の疎通がある場合はnetworksを利用するした例"></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h3 id="docker-composeを分割しコンテナ間の疎通がある場合のnetworks指定方法">docker-composeを分割しコンテナ間の疎通がある場合のnetworks指定方法</h3>
-<p>明記するnetworks名はプレフィックスを忘れないようにする</p>
-<p>BAD</p>
-<pre><code>works-net
-</code></pre><p>GOOD</p>
-<pre><code>external_works-net
-</code></pre><p><img src="../../images/post/post-4/sample-code6.png" alt="明記するnetworks名はプレフィックスを忘れないようにする"></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h3 id="コンテナを起動したままにさせる">コンテナを起動したままにさせる</h3>
-<p>ttyオプションを付与する</p>
-<p><img src="../../images/post/post-4/sample-code7.png" alt="ttyオプションを付与するした例"></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+          <h3 id="概要">概要</h3>
+<p>「Flask」とは？<br>
+現在(2020/02/15)時点で、最も注目を集めている言語が「Python」です。<br>
+「Flask」は、その「Python」のフレームワークの中でも、<br>
+シンプルなWebアプリケーションに適しており、<br>
+マイクロフレームワークとよばれていることが多いです。</p>
+<h3 id="メリット">メリット</h3>
+<ol>
+<li>軽量<br>
+「マイクロフレームワーク」という名前の通り、<br>
+必要最低限の機能しかデフォルトでは導入されていませんので、<br>
+他のフレームワーク(Djangoなど)と比べて動作が軽量になっています。</li>
+<li>カスタマイズ性<br>
+軽量故にデフォルトではあまり機能がありませんが、<br>
+フルスタックフレームワークと比べて、<br>
+自分で選択して機能を実装することが出来ます。</li>
+<li>日本語記事が豊富<br>
+日本でも人気のフレームワークのため、<br>
+日本語記事も沢山存在しています。</li>
+</ol>
+<h3 id="デメリット">デメリット</h3>
+<ol>
+<li>機能が少ない<br>
+フルスタックフレームワークと比べて必要最低限の機能しかありません。<br>
+自分で実装出来る人なら問題ありませんが、<br>
+初めての入門者には機能不足に感じるかも知れません。</li>
+<li>大規模に向いていない<br>
+「Flask」は、軽量で高速が売りの「マイクロフレームワーク」です。<br>
+もし、大規模になる想定が最初から存在しているのであれば、<br>
+採用はあまりオススメ出来ません。</li>
+<li>Python 3に対するサポートが遅い<br>
+「Flask」は2010に発表されたフレームワークです。<br>
+そのため後発に発表されたフレームワークと比較すると、<br>
+「Python 3」のサポートが後手になることが見受けられます。</li>
+</ol>
+<h3 id="github-スター数">GitHub スター数</h3>
+<ol>
+<li>Flask: 51,800</li>
+<li>Django: 51,500</li>
+<li>FastAPI: 20,100<br>
+上記の「GitHub スター数」を見ても一番人気ではありますが僅差のようです。</li>
+</ol>
 <h3 id="まとめ">まとめ</h3>
-<p>Dockerを利用して開発するうえで、<br>
-docker-composeは大変便利です。<br>
-ひとつのDockerコンテナで完結する開発であれば、<br>
-不要になる話ですが、基本的に複数のコンテナを利用することが多くなると思われます。<br>
-コンテナをまとめて管理するのにdocker-composeは、<br>
-簡単であり便利だと認識しています。</p>
+<p>簡単にすぐ動作する「マイクロフレームワーク」を探しているのであれば、<br>
+「Flask」はおすすめの「フレームワーク」だと思われます。<br>
+機能は必要最低限しか用意されていませんが、<br>
+ライブラリは大変豊富にありますので、<br>
+カスタマイズしやすいのも魅力的です。</p>
 
         </div>
 

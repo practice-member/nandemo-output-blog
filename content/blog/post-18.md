@@ -103,9 +103,15 @@ CMD ["python", "app.py"]
 ```
 
 そして以下が Flask プロジェクトの launch.json です。  
+上記と同様の手順で自動生成されたファイルです。
 
-
-![Flaskのlaunch.json](../../images/post/post-18/flask-launch-json.jpeg)   
+```
+"args": [
+  "run",
+  "--no-debugger",
+  "--no-reload"
+],
+```
 
 
 同じサーバーを2つ立ち上げようとしたことによるエラーでした。   

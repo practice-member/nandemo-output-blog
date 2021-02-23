@@ -6,7 +6,16 @@
     <description>Recent content in python on 或いはバグでいっぱいのコード</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 06 Feb 2021 08:30:48 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Feb 2021 08:30:54 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python デバッグ環境構築について調査しました</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-18/</link>
+      <pubDate>Sat, 06 Feb 2021 08:30:54 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-18/</guid>
+      <description>前提   Editor</description>
+    </item>
+    
     <item>
       <title>Flaskについて調べてみました</title>
       <link>https://practice-member.github.io/nandemo-output-blog/blog/post-16/</link>

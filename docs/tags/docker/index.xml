@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on 或いはバグでいっぱいのコード</title>
+    <link>https://practice-member.github.io/nandemo-output-blog/tags/docker/</link>
+    <description>Recent content in Docker on 或いはバグでいっぱいのコード</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sat, 06 Feb 2021 08:30:54 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python デバッグ環境構築について調査しました</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-18/</link>
+      <pubDate>Sat, 06 Feb 2021 08:30:54 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-18/</guid>
+      <description>前提   Editor</description>
+    </item>
+    
+  </channel>
+</rss>

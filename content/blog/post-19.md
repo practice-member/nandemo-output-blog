@@ -8,7 +8,7 @@ author:
  - "be-be-s"
 
 # post thumb
-image: "images/post/.jpg"
+image: "images/post/post-19.jpg"
 
 # meta description
 description: "Pythonの技術書を読んで各章ごとにまとめてみます"

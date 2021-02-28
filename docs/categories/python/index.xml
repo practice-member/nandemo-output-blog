@@ -17,5 +17,15 @@
 最初にJavaを学び、現時点でそのJavaすらまだまだ理解が及ばず使いこなせていないわけですが、Pythonを学ぶせっかくの機会に恵まれたので、技術書を読んで各章ごとに記事を書いていきます。</description>
     </item>
     
+    <item>
+      <title>FastAPIを調べました</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-17/</link>
+      <pubDate>Sat, 06 Feb 2021 08:30:52 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-17/</guid>
+      <description>FastAPIとはなにか Pythonのフレームワークの一種です。
+Pythonの代表的なフレームワークに下記があります。</description>
+    </item>
+    
   </channel>
 </rss>

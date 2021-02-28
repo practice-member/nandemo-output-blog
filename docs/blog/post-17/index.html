@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="或いはバグでいっぱいのコード">
+  <meta name="description" content="FastAPI調査">
   <meta name="author" content="Practice Members">
   <meta name="generator" content="Hugo 0.79.0" />
 
@@ -128,172 +128,75 @@
 </header>
 <!-- /navigation -->
 
-
 <section class="section-sm">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mb-5 mb-lg-0">
-        <div class="row">
-          
-          
-          <div class="col-md-6 mb-4">
-    <article class="card">
-        
-        <img src="https://practice-member.github.io/nandemo-output-blog/images/post/post-19.jpg" class="card-img-top" alt="スッキリわかるPython入門　第１章">
-        
-        <div class="card-body px-0">
+      <div class="col-lg-8 mx-auto">
         
         <a href="/nandemo-output-blog/categories/python"
-            class="text-primary">Python</a>
+          class="text-primary">Python</a>
         
-        <a href="https://practice-member.github.io/nandemo-output-blog/blog/post-19/" class="h5 d-block my-3">スッキリわかるPython入門　第１章</a>
+        <h2>FastAPIを調べました</h2>
         <div class="mb-3 post-meta">
-            <span>By [be-be-s]</span>
-            
-            <span class="border-bottom border-primary px-2 mx-1"></span>
-            <span>06 February 2021</span>
-            
-        </div>
-        <p class="card-text">はじめに プログラミング経験が現時点で９ヶ月。
-最初にJavaを学び、現時点でそのJavaすらまだまだ理解が及ばず使いこなせていないわけですが、Pythonを学ぶせっかくの機会に恵まれたので、技術書を読んで各章ごとに記事を書いていきます。</p>
-        <a href="https://practice-member.github.io/nandemo-output-blog/blog/post-19/" class="btn btn-outline-primary">read more</a>
-        </div>
-    </article>
-</div>
+          <span>By daisukesasaki787 - &#34;&#34;</span>
           
-          <div class="col-md-6 mb-4">
-    <article class="card">
-        
-        <img src="https://practice-member.github.io/nandemo-output-blog/images/post/post-1.jpg" class="card-img-top" alt="FastAPIを調べました">
-        
-        <div class="card-body px-0">
-        
-        <a href="/nandemo-output-blog/categories/python"
-            class="text-primary">Python</a>
-        
-        <a href="https://practice-member.github.io/nandemo-output-blog/blog/post-17/" class="h5 d-block my-3">FastAPIを調べました</a>
-        <div class="mb-3 post-meta">
-            <span>By daisukesasaki787 - &#34;&#34;</span>
-            
-            <span class="border-bottom border-primary px-2 mx-1"></span>
-            <span>06 February 2021</span>
-            
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>06 February 2021</span>
+          
         </div>
-        <p class="card-text">FastAPIとはなにか Pythonのフレームワークの一種です。
+        
+        <img src="https://practice-member.github.io/nandemo-output-blog/images/post/post-1.jpg" class="img-fluid w-100 mb-4" alt="FastAPIを調べました">
+        
+        <div class="content mb-5">
+          <h1 id="fastapiとはなにか">FastAPIとはなにか</h1>
+<p>Pythonのフレームワークの一種です。<br>
 Pythonの代表的なフレームワークに下記があります。</p>
-        <a href="https://practice-member.github.io/nandemo-output-blog/blog/post-17/" class="btn btn-outline-primary">read more</a>
+<p>Django: フルスタックフレームワーク<br>
+Flask: マイクロフレームワーク</p>
+<p>FastAPIはFlaskと同じマイクロフレームワークになります。</p>
+<h3 id="fastapiの機能について">FastAPIの機能について</h3>
+<p>公式のリファレンスをみて気になった機能に自動ドキュメント生成について記載があった。以下抜粋。</p>
+<blockquote>
+<p>Standards-based: API のオープンスタンダードに基づいており、完全に互換性があります: OpenAPI (以前は Swagger として知られていました) や JSON スキーマ.</p>
+</blockquote>
+<h3 id="swaggerとはなにか">Swaggerとはなにか</h3>
+<p>SwaggerはRESTFul APIを構築するためのオープンソースのフレームワーク。<br>
+「Open API Initative」という団体がRESTful APIのインターフェースの記述をするための標準フォーマットを推進しています。<br>
+その標準フォーマットがSwaggerです。</p>
+<p>この自動ドキュメント生成機能でSwagger(ドキュメント)が生成されるのでSwagger UIで直接APIを呼び出しテストが実行できます。</p>
+<p>公式リファレンスに記載で気になった記載に下記があります。</p>
+<blockquote>
+<p>FastAPI は巨人の肩の上に立っています。</p>
+<p>Web の部分はStarlette<br>
+データの部分はPydantic</p>
+</blockquote>
+<h3 id="starletteとは">Starletteとは</h3>
+<p>StarletteはASGI Framework/toolkitの一つです。<br>
+下記のような特徴をもちます。</p>
+<p>・WebSocketのサポート<br>
+・GraphQLのサポート<br>
+・プロセス内バックグラウンドタスク<br>
+・起動およびシャットダウンイベント<br>
+・requestsに基づいて構築されたテストクライアント<br>
+・CORS、GZip、静的ファイル、ストリーミング応答<br>
+・セッションとCokieのサポート<br>
+・テストカバレッジ100%<br>
+・型アノテーション100%のコードベース</p>
+<h3 id="pydanticとは">Pydanticとは</h3>
+<p>PydanticはPythonのヒントを利用してData validation/serializationを行うライブラリです。<br>
+データベースのためにORMsや、ODMsなどの、Pydanticに基づく外部ライブラリを備えています。<br>
+これは、すべてが自動的に検証されるため、多くの場合、リクエストから取得したオブジェクトをデータベースに直接渡すことができるということを意味しています。</p>
+<p>FastAPIは上記の技術体をベースに作られているので(完全互換性あり)「巨人の肩の上に立っています」と表記されているみたいです。</p>
+<p>以上FastAPIを調べて気になった個所を抜粋してみました。</p>
+
         </div>
-    </article>
-</div>
-          
-        </div>
-      </div>
-      
-      <div class="col-lg-4">
-  
-  <div class="widget">
-    
-    <h4 class="widget-title">About Me</h4>
-    
-    <img src="https://practice-member.github.io/nandemo-output-blog/images/author.jpg" alt=""
-      class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
-    
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-    <a href="https://practice-member.github.io/nandemo-output-blog/about/" class="btn btn-outline-primary">Know More</a>
-    
-  </div>
-  
-  <div class="widget">
-    <h4 class="widget-title">Category</h4>
-    <ul class="list-unstyled">
-      <li><a href="/nandemo-output-blog/categories/analytics">Analytics</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/docker">Docker</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/docker-compose">Docker compose</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/gadget">Gadget</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/hobby">Hobby</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/mobile">Mobile</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/python">Python</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/static-site-generator">Static site generator</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/survey">Survey</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/wordpress">Wordpress</a>
-      </li>
-    </ul>
-  </div>
-  
-  <div class="widget">
-    <h4 class="widget-title">Tag</h4>
-    <ul class="list-inline">
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/android">Android</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/debug">Debug</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/docker">Docker</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/espresso">Espresso</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/flask">Flask</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/framework">Framework</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/google-analytics">Google analytics</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/hugo">Hugo</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/mysql">Mysql</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/php">Php</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/python">Python</a></li>
-    </ul>
-  </div>
 
-  
-  <div class="widget">
-    <h4 class="widget-title">Social</h4>
-    <ul class="list-inline social-links">
-      
-      
-      
-      
-      
-      
-      
-      
-      <li class="list-inline-item"><a href="https://github.com/practice-member/nandemo-output-blog"><i class="ti-github"></i></a></li>
-      
-      
-      
-      
-    </ul>
-  </div>
-
-  
-  <div class="widget">
-    <img src="https://practice-member.github.io/nandemo-output-blog/images/promotion.png" alt="" class="img-fluid">
-  </div>
-</div>
-      
-
-      
-      <div class="col-12 mt-5">
         
-
-
+        
       </div>
     </div>
   </div>
 </section>
-
 
 
 

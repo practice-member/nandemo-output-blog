@@ -36,5 +36,15 @@ Pythonの代表的なフレームワークに下記があります。</descripti
 現在(2020/02/15)時点で、最も注目を集めている言語が「Python」です。</description>
     </item>
     
+    <item>
+      <title>Pythonの単体テスト用ツールについて</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-12/</link>
+      <pubDate>Sun, 31 Jan 2021 08:55:53 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-12/</guid>
+      <description>単体テストとは 人やプロジェクトごとに「単体テスト」の定義が違うことがあります。
+ コードが正確であるか 単機能が正確であるか  言葉の定義は大事なので、自分が作成する「単体テスト」が、</description>
+    </item>
+    
   </channel>
 </rss>

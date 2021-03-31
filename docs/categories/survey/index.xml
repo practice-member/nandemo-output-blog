@@ -17,6 +17,16 @@
     </item>
     
     <item>
+      <title>FastAPI 認証処理について</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-24/</link>
+      <pubDate>Sun, 28 Feb 2021 13:13:23 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-24/</guid>
+      <description>前提 本稿では、認証処理を「クライアントが誰であるかを確認する処理」とし、
+主にログイン処理に使えるライブラリについて調べました。</description>
+    </item>
+    
+    <item>
       <title>python デバッグ環境構築について調査しました</title>
       <link>https://practice-member.github.io/nandemo-output-blog/blog/post-18/</link>
       <pubDate>Sat, 06 Feb 2021 08:30:54 +0000</pubDate>

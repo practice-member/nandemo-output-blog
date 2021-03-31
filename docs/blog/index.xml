@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on 或いはバグでいっぱいのコード</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 12 Feb 2021 13:56:56 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Feb 2021 13:13:40 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>「OpenAPI Generator Tool」について調べてみた</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-31/</link>
+      <pubDate>Sun, 28 Feb 2021 13:13:40 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-31/</guid>
+      <description>「OpenAPI Generator Tool」とは OpenAPI Specification形式で記述されたYAMLやJSONのファイルをもとに、</description>
+    </item>
+    
     <item>
       <title>AndroidのespressoでDatepickerの入力テストをする時の忘備録</title>
       <link>https://practice-member.github.io/nandemo-output-blog/blog/post-20/</link>

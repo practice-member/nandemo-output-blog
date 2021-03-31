@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/blog/</loc>
+    <lastmod>2021-02-28T13:13:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/categories/</loc>
+    <lastmod>2021-02-28T13:13:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/tags/generator/</loc>
+    <lastmod>2021-02-28T13:13:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/tags/openapi/</loc>
+    <lastmod>2021-02-28T13:13:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/categories/survey/</loc>
+    <lastmod>2021-02-28T13:13:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/tags/</loc>
+    <lastmod>2021-02-28T13:13:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/blog/post-31/</loc>
+    <lastmod>2021-02-28T13:13:40+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://practice-member.github.io/nandemo-output-blog/tags/android/</loc>
     <lastmod>2021-02-12T13:56:56+00:00</lastmod>
   </url>
@@ -13,27 +48,12 @@
   </url>
   
   <url>
-    <loc>https://practice-member.github.io/nandemo-output-blog/blog/</loc>
-    <lastmod>2021-02-12T13:56:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://practice-member.github.io/nandemo-output-blog/categories/</loc>
-    <lastmod>2021-02-12T13:56:56+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://practice-member.github.io/nandemo-output-blog/tags/espresso/</loc>
     <lastmod>2021-02-12T13:56:56+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://practice-member.github.io/nandemo-output-blog/categories/mobile/</loc>
-    <lastmod>2021-02-12T13:56:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://practice-member.github.io/nandemo-output-blog/tags/</loc>
     <lastmod>2021-02-12T13:56:56+00:00</lastmod>
   </url>
   
@@ -64,11 +84,6 @@
   
   <url>
     <loc>https://practice-member.github.io/nandemo-output-blog/blog/post-18/</loc>
-    <lastmod>2021-02-06T08:30:54+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://practice-member.github.io/nandemo-output-blog/categories/survey/</loc>
     <lastmod>2021-02-06T08:30:54+00:00</lastmod>
   </url>
   

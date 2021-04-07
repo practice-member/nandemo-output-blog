@@ -17,6 +17,16 @@
     </item>
     
     <item>
+      <title>SQLAlchemy＋MySQL</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-27/</link>
+      <pubDate>Sun, 28 Feb 2021 13:13:29 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-27/</guid>
+      <description>SQLAlchemyとは SQLAlchemyはPythonでよく利用されているORM。
+SQLite、MySQL、PostgreSQL、Oracle などのデータベースに使用することができます。</description>
+    </item>
+    
+    <item>
       <title>FastAPI 認証処理について</title>
       <link>https://practice-member.github.io/nandemo-output-blog/blog/post-24/</link>
       <pubDate>Sun, 28 Feb 2021 13:13:23 +0000</pubDate>

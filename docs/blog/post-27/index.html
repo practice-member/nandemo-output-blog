@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ja-JP"><head>
+  <meta charset="utf-8">
+  <title>或いはバグでいっぱいのコード</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="或いはバグでいっぱいのコード">
+  <meta name="author" content="Practice Members">
+  <meta name="generator" content="Hugo 0.79.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://practice-member.github.io/nandemo-output-blog/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://practice-member.github.io/nandemo-output-blog/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://practice-member.github.io/nandemo-output-blog/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://practice-member.github.io/nandemo-output-blog/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://practice-member.github.io/nandemo-output-blog/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://practice-member.github.io/nandemo-output-blog/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://practice-member.github.io/nandemo-output-blog/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-188041491-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://practice-member.github.io/nandemo-output-blog/"><img class="img-fluid"
+          src="https://practice-member.github.io/nandemo-output-blog/images/blog_test_logo.png" alt="或いはバグでいっぱいのコード"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class=""></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class=""></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class=""></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/practice-member/nandemo-output-blog"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class=""></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://practice-member.github.io/nandemo-output-blog/"><img class="img-fluid"
+            src="https://practice-member.github.io/nandemo-output-blog/images/blog_test_logo.png" alt="或いはバグでいっぱいのコード"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://practice-member.github.io/nandemo-output-blog/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://practice-member.github.io/nandemo-output-blog/blog">Post</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://practice-member.github.io/nandemo-output-blog//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/nandemo-output-blog/categories/"
+          class="text-primary"></a>
+        
+        <h2>SQLAlchemy＋MySQL</h2>
+        <div class="mb-3 post-meta">
+          <span>By []</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>28 February 2021</span>
+          
+        </div>
+        
+        <img src="https://practice-member.github.io/nandemo-output-blog/images/post/post-27/sqlalchemy.jpg" class="img-fluid w-100 mb-4" alt="SQLAlchemy＋MySQL">
+        
+        <div class="content mb-5">
+          <h3 id="sqlalchemyとは">SQLAlchemyとは</h3>
+<p>SQLAlchemyはPythonでよく利用されているORM。<br>
+SQLite、MySQL、PostgreSQL、Oracle などのデータベースに使用することができます。<br>
+公式によるとredditやドロップボックスなどでも使用されているみたいです。</p>
+<p>主に以下のような機能を持っています。<br>
+・ データベースへの接続、SQLの実行<br>
+・ メタデータ<br>
+・ SQL Expression Language<br>
+・ ORM</p>
+<h3 id="データベースへの接続sqlの実行">データベースへの接続、SQLの実行</h3>
+<p>現在では下記のDBに対応しているみたいです。<br>
+SQLite、Postgresql、MySQL、Oracle、MS-SQL<br>
+※Firebird、Sybaseは非推奨になっています。</p>
+<h3 id="メタデータ">メタデータ</h3>
+<p>テーブルのスキーマをPythonのコード上で定義する方法です。DBMSに依存しない方法でスキーマを記述することができます。<br>
+定義したメタデータをengineオブジェクトと連携することにより実際のデータベスに反映することができます。<br>
+また、すでに存在するテーブルからメタ情報を生成することも可能です。(リフレクション)</p>
+<h3 id="sql-expression-language">SQL Expression Language</h3>
+<p>SQLAlchemyにはプログラム言語とSQLを分離するために独自のクエリライクな記法が用意されており、これをSQL Expression Languageと呼びます。<br>
+SQL Expression Languageを使用することで、PythonコードとSQ​​Lコードを混在させないようにすることができ、コードの保守性を向上させます。</p>
+<h3 id="orm">ORM</h3>
+<p>クエリの実行結果をモデルに格納します。オブジェクトへのデータセットが自動化されるため、開発を効率化させることができます。</p>
+<h3 id="sqlalchemyを使用したdbとの接続">SQLAlchemyを使用したDBとの接続</h3>
+<p>下記、公式のチュートリアルをもとに実装しました。<br>
+<a href="https://fastapi.tiangolo.com/ja/tutorial/sql-databases/">https://fastapi.tiangolo.com/ja/tutorial/sql-databases/</a></p>
+<h3 id="ファイル構造">ファイル構造</h3>
+<blockquote>
+<p>.<br>
+└── new_project<br>
+　　├── main.py<br>
+　　└── sql_app<br>
+　　        ├── <strong>init</strong>.py<br>
+　　        ├── crud.py<br>
+　　        ├── database.py<br>
+　　        ├── main.py<br>
+　　        ├── models.py<br>
+　　        └── schemas.py</p>
+</blockquote>
+<p>チュートリアルと違い「main.py」の階層を一つ上に置いています。</p>
+<h3 id="databasepy">database.py</h3>
+<p><img src="../../images/post/post-27/database.png" alt="database.py"></p>
+<p>今回はSQLiteではなくMySQLを使用しています。</p>
+<h3 id="modelspy">models.py</h3>
+<p><img src="../../images/post/post-27/models.png" alt="models.py"></p>
+<p>基本的にチュートリアルと変更はありません。<br>
+Stringを指定したカラムに対して最大長の指定を行っています。</p>
+<h3 id="schemaspy">schemas.py</h3>
+<p><img src="../../images/post/post-27/schemas.png" alt="schemas.py"></p>
+<p>こちらも基本的に変更なし。<br>
+pydanticのインポートで下記Pylintエラーが出たため</p>
+<blockquote>
+<p>No name &lsquo;BaseModel&rsquo; in module &lsquo;pydantic&rsquo;</p>
+</blockquote>
+<p>下記を参考にエラーを回避させています。<br>
+<a href="https://github.com/samuelcolvin/pydantic/issues/1961">https://github.com/samuelcolvin/pydantic/issues/1961</a></p>
+<h3 id="crudpy">crud.py</h3>
+<p><img src="../../images/post/post-27/crud.png" alt="crud.py"></p>
+<p>こちらも変更なし。<br>
+上記で述べたSQL Expression Languageを使用している部分にあたります。</p>
+<h3 id="mainpy">main.py</h3>
+<p><img src="../../images/post/post-27/main.png" alt="main.py"></p>
+<p>こちらも基本的に変更なしですが、チュートリアルと同じディレクトリ構造で<br>
+crudやdatabaseのインポートを行うと下記エラーが出てしまいました。</p>
+<blockquote>
+<p>Attempted relative import beyond top-level package</p>
+</blockquote>
+<p>下記を参照に解決してみましたが、正直そんなに理解できていないです。  　　
+<a href="https://qiita.com/Haaamaaaaa/items/109b3ef0996a543ba95d">https://qiita.com/Haaamaaaaa/items/109b3ef0996a543ba95d</a></p>
+<h3 id="uvicornで実行">Uvicornで実行</h3>
+<p>チュートリアル通り下記コマンドで実行すると・・・　　</p>
+<blockquote>
+<p>uvicornsql_app。main：app &ndash;reload</p>
+</blockquote>
+<p>このようなエラーが出ます。　　</p>
+<blockquote>
+<p>Error loading ASGI app. Import string &ldquo;sql_app。main：app&rdquo; must be in format &ldquo;<!-- raw HTML omitted -->:<!-- raw HTML omitted -->&rdquo;.</p>
+</blockquote>
+<p>なので下記コマンドで実行で起動ができました。</p>
+<blockquote>
+<p>uvicorn main:app &ndash;reload &ndash;host 127.0.0.1 &ndash;port 8000</p>
+</blockquote>
+<p>&lt;http：//127.0.0.1：8000 / docs&gt;で確認できます。 
+<img src="../../images/post/post-27/swagger1.png" alt="swagger1.py"></p>
+<p><img src="../../images/post/post-27/swagger2.png" alt="swagger2.py"></p>
+<h3 id="まとめ">まとめ</h3>
+<p>今回チュートリアルをもとにSQLAlchemyを使用したDBへの接続を行いましたが<br>
+モジュールのインポートなど思いもよらないところで躓くことになりました。<br>
+SQLAlchemyではSQL Expression LanguageでSQLを書かなくてよく、便利に感じる一方で<br>
+実際に発行されるSQLがわかりづらいので、コストの重いSQLを発行しないためにもSQL Expression Languageの理解を<br>
+深めるようにしないといけないと思いました。</p>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://practice-member.github.io/nandemo-output-blog/"><img src="https://practice-member.github.io/nandemo-output-blog/images/blog_test_logo.png" alt="或いはバグでいっぱいのコード"></a>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="#"></a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#"></a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#"></a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/practice-member/nandemo-output-blog">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#"></a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/analytics">Analytics</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/docker">Docker</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/docker-compose">Docker compose</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/gadget">Gadget</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/hobby">Hobby</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/mobile">Mobile</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/python">Python</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/static-site-generator">Static site generator</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/survey">Survey</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/wordpress">Wordpress</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://practice-member.github.io/nandemo-output-blog/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://practice-member.github.io/nandemo-output-blog/blog">Post</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://practice-member.github.io/nandemo-output-blog/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://practice-member.github.io/nandemo-output-blog/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://practice-member.github.io/nandemo-output-blog/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://practice-member.github.io/nandemo-output-blog/plugins/slick/slick.min.js"></script>
+
+<script src="https://practice-member.github.io/nandemo-output-blog/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://practice-member.github.io/nandemo-output-blog/plugins/search/fuse.min.js"></script>
+
+<script src="https://practice-member.github.io/nandemo-output-blog/plugins/search/mark.js"></script>
+
+<script src="https://practice-member.github.io/nandemo-output-blog/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://practice-member.github.io/nandemo-output-blog/js/script.min.js"></script>
+
+
+
+</body>
+</html>

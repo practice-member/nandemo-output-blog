@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ja-JP"><head>
+  <meta charset="utf-8">
+  <title>或いはバグでいっぱいのコード</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="或いはバグでいっぱいのコード">
+  <meta name="author" content="Practice Members">
+  <meta name="generator" content="Hugo 0.79.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://practice-member.github.io/nandemo-output-blog/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://practice-member.github.io/nandemo-output-blog/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://practice-member.github.io/nandemo-output-blog/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://practice-member.github.io/nandemo-output-blog/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://practice-member.github.io/nandemo-output-blog/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://practice-member.github.io/nandemo-output-blog/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://practice-member.github.io/nandemo-output-blog/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-188041491-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://practice-member.github.io/nandemo-output-blog/"><img class="img-fluid"
+          src="https://practice-member.github.io/nandemo-output-blog/images/blog_test_logo.png" alt="或いはバグでいっぱいのコード"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class=""></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class=""></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class=""></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/practice-member/nandemo-output-blog"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class=""></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://practice-member.github.io/nandemo-output-blog/"><img class="img-fluid"
+            src="https://practice-member.github.io/nandemo-output-blog/images/blog_test_logo.png" alt="或いはバグでいっぱいのコード"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://practice-member.github.io/nandemo-output-blog/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://practice-member.github.io/nandemo-output-blog/blog">Post</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://practice-member.github.io/nandemo-output-blog//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/nandemo-output-blog/categories/fastapi"
+          class="text-primary">Fast a p i</a>
+        
+        <h2>FastAPI ロギング調査</h2>
+        <div class="mb-3 post-meta">
+          <span>By [greenwakame]</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>28 February 2021</span>
+          
+        </div>
+        
+        <img src="https://practice-member.github.io/nandemo-output-blog/images/post/post-28/fastapi-logo.png" class="img-fluid w-100 mb-4" alt="FastAPI ロギング調査">
+        
+        <div class="content mb-5">
+          <h3 id="ロギングとは">「ロギング」とは</h3>
+<p>起こった出来事についての情報などを一定の形式で時系列に記録を蓄積することである。<br>
+そのように記録されたデータのことを「ログ」という。</p>
+<h3 id="middlewareの使用例">「Middleware」の使用例</h3>
+<p><a href="https://fastapi.tiangolo.com/tutorial/middleware/">公式</a>には、レスポンスに処理を追加する例が記載されています。</p>
+<pre><code>import time
+
+from fastapi import FastAPI, Request
+
+app = FastAPI()
+
+
+@app.middleware(&quot;http&quot;)
+async def add_process_time_header(request: Request, call_next):
+    start_time = time.time()
+    response = await call_next(request)
+    process_time = time.time() - start_time
+    response.headers[&quot;X-Process-Time&quot;] = str(process_time)
+    return response
+</code></pre><h3 id="カスタムリクエストとapirouteクラス">「カスタムリクエスト」と「APIRouteクラス」</h3>
+<p>APIRouterを利用することで、カスタムリクエストを容易に実装することが出来ます。</p>
+<pre><code>import time
+from typing import Callable
+
+from fastapi import APIRouter, FastAPI, Request, Response
+from fastapi.routing import APIRoute
+
+
+class TimedRoute(APIRoute):
+    def get_route_handler(self) -&gt; Callable:
+        original_route_handler = super().get_route_handler()
+
+        async def custom_route_handler(request: Request) -&gt; Response:
+            before = time.time()
+            response: Response = await original_route_handler(request)
+            duration = time.time() - before
+            response.headers[&quot;X-Response-Time&quot;] = str(duration)
+            print(f&quot;route duration: {duration}&quot;)
+            print(f&quot;route response: {response}&quot;)
+            print(f&quot;route response headers: {response.headers}&quot;)
+            return response
+
+        return custom_route_handler
+
+
+app = FastAPI()
+router = APIRouter(route_class=TimedRoute)
+
+
+@app.get(&quot;/&quot;)
+async def not_timed():
+    return {&quot;message&quot;: &quot;Not timed&quot;}
+
+
+@router.get(&quot;/timed&quot;)
+async def timed():
+    return {&quot;message&quot;: &quot;It's the time of my life&quot;}
+
+
+app.include_router(router)
+</code></pre><p>下記は「X-Response-Time」をレスポンスに追加している例になります。</p>
+<pre><code>import time
+from typing import Callable
+
+from fastapi import APIRouter, FastAPI, Request, Response
+from fastapi.routing import APIRoute
+
+
+class TimedRoute(APIRoute):
+    def get_route_handler(self) -&gt; Callable:
+        original_route_handler = super().get_route_handler()
+
+        async def custom_route_handler(request: Request) -&gt; Response:
+            before = time.time()
+            response: Response = await original_route_handler(request)
+            duration = time.time() - before
+            response.headers[&quot;X-Response-Time&quot;] = str(duration)
+            print(f&quot;route duration: {duration}&quot;)
+            print(f&quot;route response: {response}&quot;)
+            print(f&quot;route response headers: {response.headers}&quot;)
+            return response
+
+        return custom_route_handler
+
+
+app = FastAPI()
+router = APIRouter(route_class=TimedRoute)
+
+
+@app.get(&quot;/&quot;)
+async def not_timed():
+    return {&quot;message&quot;: &quot;Not timed&quot;}
+
+
+@router.get(&quot;/timed&quot;)
+async def timed():
+    return {&quot;message&quot;: &quot;It's the time of my life&quot;}
+
+
+app.include_router(router)
+</code></pre><h3 id="例外処理のロギング">「例外処理」のロギング</h3>
+<p>「ValidationErrorLoggingRoute」か「RequestValidationError」を、<br>
+利用してログキングすることが出来ますが、<br>
+「ValidationErrorLoggingRoute」の方が容易に実装出来そうです。</p>
+<p>try/exceptブロック内でリクエストを処理するだけです。</p>
+<pre><code>from typing import Callable, List
+
+from fastapi import Body, FastAPI, HTTPException, Request, Response
+from fastapi.exceptions import RequestValidationError
+from fastapi.routing import APIRoute
+
+
+class ValidationErrorLoggingRoute(APIRoute):
+    def get_route_handler(self) -&gt; Callable:
+        original_route_handler = super().get_route_handler()
+
+        async def custom_route_handler(request: Request) -&gt; Response:
+            try:
+                return await original_route_handler(request)
+            except RequestValidationError as exc:
+                body = await request.body()
+                detail = {&quot;errors&quot;: exc.errors(), &quot;body&quot;: body.decode()}
+                raise HTTPException(status_code=422, detail=detail)
+
+        return custom_route_handler
+
+
+app = FastAPI()
+app.router.route_class = ValidationErrorLoggingRoute
+
+
+@app.post(&quot;/&quot;)
+async def sum_numbers(numbers: List[int] = Body(...)):
+    return sum(numbers)
+</code></pre><p>例外が発生したRequest場合でも、<br>
+インスタンスはスコープ内にあるため、<br>
+エラーを処理するときにリクエスト本文を読み取って利用できます。</p>
+<pre><code>from typing import Callable, List
+
+from fastapi import Body, FastAPI, HTTPException, Request, Response
+from fastapi.exceptions import RequestValidationError
+from fastapi.routing import APIRoute
+
+
+class ValidationErrorLoggingRoute(APIRoute):
+    def get_route_handler(self) -&gt; Callable:
+        original_route_handler = super().get_route_handler()
+
+        async def custom_route_handler(request: Request) -&gt; Response:
+            try:
+                return await original_route_handler(request)
+            except RequestValidationError as exc:
+                body = await request.body()
+                detail = {&quot;errors&quot;: exc.errors(), &quot;body&quot;: body.decode()}
+                raise HTTPException(status_code=422, detail=detail)
+
+        return custom_route_handler
+
+
+app = FastAPI()
+app.router.route_class = ValidationErrorLoggingRoute
+
+
+@app.post(&quot;/&quot;)
+async def sum_numbers(numbers: List[int] = Body(...)):
+    return sum(numbers)
+</code></pre><h3 id="まとめ">まとめ</h3>
+<p>今回は「FastAPI」でのロギングについて調べてみましたが、<br>
+最低限実装したい形式は全て<a href="https://fastapi.tiangolo.com/advanced/custom-request-and-route/">「カスタムリクエストとAPIRouteクラス」</a>や<a href="https://fastapi.tiangolo.com/tutorial/middleware/">「Middleware」</a>に、<br>
+記述されていましたので、ますます「FastAPI」は開発しやすそうなフレームワークだと認識できました。</p>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://practice-member.github.io/nandemo-output-blog/"><img src="https://practice-member.github.io/nandemo-output-blog/images/blog_test_logo.png" alt="或いはバグでいっぱいのコード"></a>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="#"></a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#"></a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#"></a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/practice-member/nandemo-output-blog">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#"></a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/analytics">Analytics</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/docker">Docker</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/docker-compose">Docker compose</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/fastapi">Fastapi</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/gadget">Gadget</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/hobby">Hobby</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/mobile">Mobile</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/python">Python</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/static-site-generator">Static site generator</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/survey">Survey</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/nandemo-output-blog/categories/wordpress">Wordpress</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://practice-member.github.io/nandemo-output-blog/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://practice-member.github.io/nandemo-output-blog/blog">Post</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://practice-member.github.io/nandemo-output-blog/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://practice-member.github.io/nandemo-output-blog/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://practice-member.github.io/nandemo-output-blog/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://practice-member.github.io/nandemo-output-blog/plugins/slick/slick.min.js"></script>
+
+<script src="https://practice-member.github.io/nandemo-output-blog/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://practice-member.github.io/nandemo-output-blog/plugins/search/fuse.min.js"></script>
+
+<script src="https://practice-member.github.io/nandemo-output-blog/plugins/search/mark.js"></script>
+
+<script src="https://practice-member.github.io/nandemo-output-blog/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://practice-member.github.io/nandemo-output-blog/js/script.min.js"></script>
+
+
+
+</body>
+</html>

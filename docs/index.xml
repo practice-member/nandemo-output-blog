@@ -17,6 +17,16 @@
     </item>
     
     <item>
+      <title>FastAPI ロギング調査</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-28/</link>
+      <pubDate>Sun, 28 Feb 2021 13:13:31 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-28/</guid>
+      <description>「ロギング」とは 起こった出来事についての情報などを一定の形式で時系列に記録を蓄積することである。
+そのように記録されたデータのことを「ログ」という。</description>
+    </item>
+    
+    <item>
       <title>SQLAlchemy＋MySQL</title>
       <link>https://practice-member.github.io/nandemo-output-blog/blog/post-27/</link>
       <pubDate>Sun, 28 Feb 2021 13:13:29 +0000</pubDate>

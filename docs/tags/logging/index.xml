@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>logging on 或いはバグでいっぱいのコード</title>
+    <link>https://practice-member.github.io/nandemo-output-blog/tags/logging/</link>
+    <description>Recent content in logging on 或いはバグでいっぱいのコード</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sun, 28 Feb 2021 13:13:31 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/tags/logging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FastAPI ロギング調査</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-28/</link>
+      <pubDate>Sun, 28 Feb 2021 13:13:31 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-28/</guid>
+      <description>「ロギング」とは 起こった出来事についての情報などを一定の形式で時系列に記録を蓄積することである。
+そのように記録されたデータのことを「ログ」という。</description>
+    </item>
+    
+  </channel>
+</rss>

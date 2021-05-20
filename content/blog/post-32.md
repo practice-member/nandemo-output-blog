@@ -1,5 +1,5 @@
 ---
-title: "Android StudioでLayout Editorが表示されない事象に対応する"
+title: "Android Studioを4.2.0にしたらレイアウトのDesignビューが表示されなくなったので対応した件"
 date: 2021-02-28T13:13:42Z
 draft: false
 
@@ -11,7 +11,7 @@ author:
 image: "images/post/post-32/sum-nail.jpg"
 
 # meta description
-description: "Android StudioでLayout Editorが表示されない事象に対応する"
+description: "Android Studioを 4.2.0にしたらレイアウトのDesignビューが表示されなくなったので対応した件"
 
 # taxonomies
 categories: 
@@ -162,8 +162,8 @@ android:autofillHints='""'
 ``` 
 
 
-ただこの方法も後に不具合の原因になると思われるので、   
-素直に tools:ignore="Autofill" や android:importantForAutofill="no" を  
+ただこの方法も根本的な解決になっておらず、後に不具合の原因になると思われるので   
+tools:ignore="Autofill" や android:importantForAutofill="no" を  
 つけたほうが良いと思われます。   
 
 

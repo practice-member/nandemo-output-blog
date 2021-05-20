@@ -8,7 +8,7 @@
     <language>ja-JP</language>
     <lastBuildDate>Sun, 28 Feb 2021 13:13:42 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/tags/android-studio/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Android StudioでLayout Editorが表示されない事象に対応する</title>
+      <title>Android Studioを4.2.0にしたらレイアウトのDesignビューが表示されなくなったので対応した件</title>
       <link>https://practice-member.github.io/nandemo-output-blog/blog/post-32/</link>
       <pubDate>Sun, 28 Feb 2021 13:13:42 +0000</pubDate>
       

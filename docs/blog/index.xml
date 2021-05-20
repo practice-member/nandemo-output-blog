@@ -6,9 +6,18 @@
     <description>Recent content in Blogs on 或いはバグでいっぱいのコード</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 28 Feb 2021 13:13:42 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 May 2021 13:44:47 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Android StudioでLayout Editorが表示されない事象に対応する</title>
+      <title>AndroidのsetColorFilterでハマった話</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-33/</link>
+      <pubDate>Thu, 20 May 2021 13:44:47 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-33/</guid>
+      <description>環境 Android Studio 4.</description>
+    </item>
+    
+    <item>
+      <title>Android Studioを4.2.0にしたらレイアウトのDesignビューが表示されなくなったので対応した件</title>
       <link>https://practice-member.github.io/nandemo-output-blog/blog/post-32/</link>
       <pubDate>Sun, 28 Feb 2021 13:13:42 +0000</pubDate>
       

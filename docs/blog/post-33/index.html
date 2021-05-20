@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="或いはバグでいっぱいのコード">
+  <meta name="description" content="AndroidのsetColorFilterでハマった話">
   <meta name="author" content="Practice Members">
   <meta name="generator" content="Hugo 0.79.0" />
 
@@ -128,167 +128,62 @@
 </header>
 <!-- /navigation -->
 
-
 <section class="section-sm">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mb-5 mb-lg-0">
-        <div class="row">
-          
-          
-          <div class="col-md-6 mb-4">
-    <article class="card">
+      <div class="col-lg-8 mx-auto">
         
-        <img src="https://practice-member.github.io/nandemo-output-blog/images/post/post-20/post-20.jpg" class="card-img-top" alt="AndroidのespressoでDatepickerの入力テストをする時の忘備録">
+        <a href="/nandemo-output-blog/categories/android"
+          class="text-primary">Android</a>
         
-        <div class="card-body px-0">
-        
-        <a href="/nandemo-output-blog/categories/mobile"
-            class="text-primary">Mobile</a>
-        
-        <a href="https://practice-member.github.io/nandemo-output-blog/blog/post-20/" class="h5 d-block my-3">AndroidのespressoでDatepickerの入力テストをする時の忘備録</a>
+        <h2>AndroidのsetColorFilterでハマった話</h2>
         <div class="mb-3 post-meta">
-            <span>By [Kawaken555]</span>
-            
-            <span class="border-bottom border-primary px-2 mx-1"></span>
-            <span>12 February 2021</span>
-            
-        </div>
-        <p class="card-text">■結論 以下のコードで実行できます
-なお、kotlinです。</p>
-        <a href="https://practice-member.github.io/nandemo-output-blog/blog/post-20/" class="btn btn-outline-primary">read more</a>
-        </div>
-    </article>
-</div>
+          <span>By [Kawaken555]</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>20 May 2021</span>
           
         </div>
-      </div>
-      
-      <div class="col-lg-4">
-  
-  <div class="widget">
-    
-    <h4 class="widget-title">About Me</h4>
-    
-    <img src="https://practice-member.github.io/nandemo-output-blog/images/author.jpg" alt=""
-      class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
-    
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-    <a href="https://practice-member.github.io/nandemo-output-blog/about/" class="btn btn-outline-primary">Know More</a>
-    
-  </div>
-  
-  <div class="widget">
-    <h4 class="widget-title">Category</h4>
-    <ul class="list-unstyled">
-      <li><a href="/nandemo-output-blog/categories/analytics">Analytics</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/android">Android</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/docker">Docker</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/docker-compose">Docker compose</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/fastapi">Fastapi</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/gadget">Gadget</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/hobby">Hobby</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/mobile">Mobile</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/python">Python</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/static-site-generator">Static site generator</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/survey">Survey</a>
-      </li>
-      <li><a href="/nandemo-output-blog/categories/wordpress">Wordpress</a>
-      </li>
-    </ul>
-  </div>
-  
-  <div class="widget">
-    <h4 class="widget-title">Tag</h4>
-    <ul class="list-inline">
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/android">Android</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/android-studio">Android studio</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/debug">Debug</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/docker">Docker</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/espresso">Espresso</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/fastapi">Fastapi</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/flask">Flask</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/framework">Framework</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/generator">Generator</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/google-analytics">Google analytics</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/hugo">Hugo</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/logging">Logging</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/mobile">Mobile</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/mysql">Mysql</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/openapi">Openapi</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/php">Php</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/python">Python</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/test-framework">Test framework</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/nandemo-output-blog/tags/unit-test-tool">Unit test tool</a></li>
-    </ul>
-  </div>
-
-  
-  <div class="widget">
-    <h4 class="widget-title">Social</h4>
-    <ul class="list-inline social-links">
-      
-      
-      
-      
-      
-      
-      
-      
-      <li class="list-inline-item"><a href="https://github.com/practice-member/nandemo-output-blog"><i class="ti-github"></i></a></li>
-      
-      
-      
-      
-    </ul>
-  </div>
-
-  
-  <div class="widget">
-    <img src="https://practice-member.github.io/nandemo-output-blog/images/promotion.png" alt="" class="img-fluid">
-  </div>
-</div>
-      
-
-      
-      <div class="col-12 mt-5">
         
+        <img src="https://practice-member.github.io/nandemo-output-blog/images/post/post-33/post-33.jpg" class="img-fluid w-100 mb-4" alt="AndroidのsetColorFilterでハマった話">
+        
+        <div class="content mb-5">
+          <h4 id="環境">環境</h4>
+<p>Android Studio 4.2.1<br>
+minSdkVersion 26<br>
+targetSdkVersion 30</p>
+<h4 id="imageviewの色をつけようとしたけどつけられなかった">ImageViewの色をつけようとしたけどつけられなかった</h4>
+<p>以下のような拡張関数を作って ImageViewに セットした SVG の色をつけようとしました。</p>
+<pre><code>fun ImageView.setColor(colorCode: Int) {
 
+    setColorFilter(colorCode, PorterDuff.Mode.SRC_IN)
+}
+</code></pre><p>なお colorCode には、color.xml のリソースを以下のような形で書いて渡していました。</p>
+<pre><code>saveIcon.setColor(R.color.red)
+</code></pre><h4 id="エラーは出ないのに色がつかない">エラーは出ないのに色がつかない</h4>
+<p>しかし上記のコードでは意図した色がつかず、何故かグレーになってしまいました。</p>
+<p>以前上記の方法で SVG にグレーの色を付けた経験があったので、何故できないんだ、 <br>
+なんで今回ももグレーになってしまうんだと悩みました。</p>
+<h4 id="setcolorfilterに渡している引数が違った">setColorFilterに渡している引数が違った</h4>
+<p>R.color.red で返ってくるのは、xml ファイルに記載された文字列と紐付いたリソース IDらしいです。<br>
+Intの情報ではありますが、色情報ではないです。</p>
+<p>なので、上記の拡張関数は以下のように書き、リソースから色情報を取得しなくてはなりません。</p>
+<pre><code>fun ImageView.setColor(colorCode: Int) {
+    val color = ResourcesCompat.getColor(resources, colorCode, null)
 
+    setColorFilter(color, PorterDuff.Mode.SRC_IN)
+}
+</code></pre><p>偶然にも以前意図した色をつけることが出来てしまっていたので悩んでしまいました。<br>
+今後足りていない values/xxxx.xml について理解を深めようと思います。</p>
+
+        </div>
+
+        
+        
       </div>
     </div>
   </div>
 </section>
-
 
 
 

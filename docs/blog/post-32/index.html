@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Android StudioでLayout Editorが表示されない事象に対応する">
+  <meta name="description" content="Android Studioを 4.2.0にしたらレイアウトのDesignビューが表示されなくなったので対応した件">
   <meta name="author" content="Practice Members">
   <meta name="generator" content="Hugo 0.79.0" />
 
@@ -136,7 +136,7 @@
         <a href="/nandemo-output-blog/categories/android"
           class="text-primary">Android</a>
         
-        <h2>Android StudioでLayout Editorが表示されない事象に対応する</h2>
+        <h2>Android Studioを4.2.0にしたらレイアウトのDesignビューが表示されなくなったので対応した件</h2>
         <div class="mb-3 post-meta">
           <span>By [Kawaken555]</span>
           
@@ -145,7 +145,7 @@
           
         </div>
         
-        <img src="https://practice-member.github.io/nandemo-output-blog/images/post/post-32/sum-nail.jpg" class="img-fluid w-100 mb-4" alt="Android StudioでLayout Editorが表示されない事象に対応する">
+        <img src="https://practice-member.github.io/nandemo-output-blog/images/post/post-32/sum-nail.jpg" class="img-fluid w-100 mb-4" alt="Android Studioを4.2.0にしたらレイアウトのDesignビューが表示されなくなったので対応した件">
         
         <div class="content mb-5">
           <h2 id="環境">環境</h2>
@@ -255,8 +255,8 @@ Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range:
 </code></pre><p>何かの記事を見て Missing autofillHints attribute の警告を消すために書いていたのですが、<br>
 これを以下のように変えると不具合は解消しました。</p>
 <pre><code>android:autofillHints='&quot;&quot;'
-</code></pre><p>ただこの方法も後に不具合の原因になると思われるので、<br>
-素直に tools:ignore=&ldquo;Autofill&rdquo; や android:importantForAutofill=&ldquo;no&rdquo; を<br>
+</code></pre><p>ただこの方法も根本的な解決になっておらず、後に不具合の原因になると思われるので<br>
+tools:ignore=&ldquo;Autofill&rdquo; や android:importantForAutofill=&ldquo;no&rdquo; を<br>
 つけたほうが良いと思われます。</p>
 
         </div>

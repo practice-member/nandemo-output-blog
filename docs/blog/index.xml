@@ -18,6 +18,16 @@ yapf １つ目は yapf になります。 google社が作成しています</des
     </item>
     
     <item>
+      <title>FastAPIでもホットリロードがしたい！</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-35/</link>
+      <pubDate>Sun, 01 Aug 2021 14:10:47 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-35/</guid>
+      <description>FastAPIでホットリロードモードで起動するには FastAPI起動の際に以下のオプションを付けると
+FastAPIをホットリロードモードで起動することができます。</description>
+    </item>
+    
+    <item>
       <title>Python用のlinterを検討してみた</title>
       <link>https://practice-member.github.io/nandemo-output-blog/blog/post-34/</link>
       <pubDate>Sun, 01 Aug 2021 14:10:44 +0000</pubDate>

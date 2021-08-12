@@ -6,7 +6,17 @@
     <description>Recent content in FastAPI on 或いはバグでいっぱいのコード</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 28 Feb 2021 13:13:23 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/tags/fastapi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Aug 2021 14:10:47 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/tags/fastapi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FastAPIでもホットリロードがしたい！</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-35/</link>
+      <pubDate>Sun, 01 Aug 2021 14:10:47 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-35/</guid>
+      <description>FastAPIでホットリロードモードで起動するには FastAPI起動の際に以下のオプションを付けると
+FastAPIをホットリロードモードで起動することができます。</description>
+    </item>
+    
     <item>
       <title>FastAPI 認証処理について</title>
       <link>https://practice-member.github.io/nandemo-output-blog/blog/post-24/</link>

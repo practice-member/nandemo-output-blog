@@ -8,6 +8,26 @@
     <language>ja-JP</language>
     <lastBuildDate>Sun, 13 Dec 2020 09:08:31 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title> Pythonのソースの自動整形について</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-37/</link>
+      <pubDate>Sun, 01 Aug 2021 14:10:54 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-37/</guid>
+      <description>コーディングをする際のソースの自動整形について調べました。
+yapf １つ目は yapf になります。 google社が作成しています</description>
+    </item>
+    
+    <item>
+      <title>Python用のlinterを検討してみた</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-34/</link>
+      <pubDate>Sun, 01 Aug 2021 14:10:44 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-34/</guid>
+      <description>「lint/linter」とは 「lint」とは、プログラムなどのソースコードを読み込んで内容を分析し、
+問題点を指摘してくれる静的解析ツール。</description>
+    </item>
+    
+    <item>
       <title>AndroidのsetColorFilterでハマった話</title>
       <link>https://practice-member.github.io/nandemo-output-blog/blog/post-33/</link>
       <pubDate>Thu, 20 May 2021 13:44:47 +0000</pubDate>

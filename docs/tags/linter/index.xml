@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linter on 或いはバグでいっぱいのコード</title>
+    <link>https://practice-member.github.io/nandemo-output-blog/tags/linter/</link>
+    <description>Recent content in linter on 或いはバグでいっぱいのコード</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sun, 01 Aug 2021 14:10:44 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/tags/linter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python用のlinterを検討してみた</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-34/</link>
+      <pubDate>Sun, 01 Aug 2021 14:10:44 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-34/</guid>
+      <description>「lint/linter」とは 「lint」とは、プログラムなどのソースコードを読み込んで内容を分析し、
+問題点を指摘してくれる静的解析ツール。</description>
+    </item>
+    
+  </channel>
+</rss>

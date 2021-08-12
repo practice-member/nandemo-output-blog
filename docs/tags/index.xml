@@ -6,7 +6,52 @@
     <description>Recent content in Tags on 或いはバグでいっぱいのコード</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 20 May 2021 13:44:47 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Aug 2021 14:10:54 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>black</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/tags/black/</link>
+      <pubDate>Sun, 01 Aug 2021 14:10:54 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/tags/black/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/tags/python/</link>
+      <pubDate>Sun, 01 Aug 2021 14:10:54 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yapf</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/tags/yapf/</link>
+      <pubDate>Sun, 01 Aug 2021 14:10:54 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/tags/yapf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linter</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/tags/linter/</link>
+      <pubDate>Sun, 01 Aug 2021 14:10:44 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/tags/linter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vscode</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/tags/vscode/</link>
+      <pubDate>Sun, 01 Aug 2021 14:10:44 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/tags/vscode/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>mobile</title>
       <link>https://practice-member.github.io/nandemo-output-blog/tags/mobile/</link>
@@ -58,15 +103,6 @@
       <pubDate>Sun, 28 Feb 2021 13:13:23 +0000</pubDate>
       
       <guid>https://practice-member.github.io/nandemo-output-blog/tags/fastapi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://practice-member.github.io/nandemo-output-blog/tags/python/</link>
-      <pubDate>Sun, 28 Feb 2021 13:13:23 +0000</pubDate>
-      
-      <guid>https://practice-member.github.io/nandemo-output-blog/tags/python/</guid>
       <description></description>
     </item>
     

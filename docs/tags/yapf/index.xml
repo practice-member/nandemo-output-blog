@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yapf on 或いはバグでいっぱいのコード</title>
+    <link>https://practice-member.github.io/nandemo-output-blog/tags/yapf/</link>
+    <description>Recent content in yapf on 或いはバグでいっぱいのコード</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sun, 01 Aug 2021 14:10:54 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/tags/yapf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Pythonのソースの自動整形について</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-37/</link>
+      <pubDate>Sun, 01 Aug 2021 14:10:54 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-37/</guid>
+      <description>コーディングをする際のソースの自動整形について調べました。
+yapf １つ目は yapf になります。 google社が作成しています</description>
+    </item>
+    
+  </channel>
+</rss>

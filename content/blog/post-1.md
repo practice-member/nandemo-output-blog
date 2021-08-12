@@ -22,7 +22,7 @@ tags:
   - ""
 
 # post type
-type: "post"
+type: "feature"
 ---
 
 ### はじめに

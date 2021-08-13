@@ -22,6 +22,7 @@ tags:
 
 # post type
 type: "post"
+
 ---
 
 ### 経緯   
@@ -97,12 +98,19 @@ pip:   https://pypi.org/project/ariadne/
 #### ■ Strawberry
 
 * MIT License
+
 * 2日前に最新リリース(調査時点)
+
 * star 1.1k    
+
 * Python 3.9 までサポート
-* スキーマファースト
+
 * dataclasses(Python 3.7 の機能？)にインスパイアされたライブラリ   
+
 * Python の型ヒントを使用した書式なので書きやすそう     
+
+  ※ 他のライブラリが型を指定するのに「 String 」と書かないと行けないところを Strawberry では「 str 」とPython っぽく書けそう
+
 * 初期開発のため急な変更があるかもしれない([公式に文言](https://strawberry.rocks/docs/general/why#why-should-you-use-strawberry))
 
 

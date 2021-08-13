@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/blog/</loc>
+    <lastmod>2021-08-13T13:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/categories/</loc>
+    <lastmod>2021-08-13T13:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/tags/graphql/</loc>
+    <lastmod>2021-08-13T13:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/categories/python/</loc>
+    <lastmod>2021-08-13T13:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/blog/post-38/</loc>
+    <lastmod>2021-08-13T13:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practice-member.github.io/nandemo-output-blog/tags/</loc>
+    <lastmod>2021-08-13T13:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://practice-member.github.io/nandemo-output-blog/blog/post-37/</loc>
     <lastmod>2021-08-01T14:10:54+00:00</lastmod>
   </url>
@@ -13,27 +43,7 @@
   </url>
   
   <url>
-    <loc>https://practice-member.github.io/nandemo-output-blog/blog/</loc>
-    <lastmod>2021-08-01T14:10:54+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://practice-member.github.io/nandemo-output-blog/categories/</loc>
-    <lastmod>2021-08-01T14:10:54+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://practice-member.github.io/nandemo-output-blog/categories/python/</loc>
-    <lastmod>2021-08-01T14:10:54+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://practice-member.github.io/nandemo-output-blog/tags/python/</loc>
-    <lastmod>2021-08-01T14:10:54+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://practice-member.github.io/nandemo-output-blog/tags/</loc>
     <lastmod>2021-08-01T14:10:54+00:00</lastmod>
   </url>
   

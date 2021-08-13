@@ -6,7 +6,17 @@
     <description>Recent content in Blogs on 或いはバグでいっぱいのコード</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 01 Aug 2021 14:10:54 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Aug 2021 13:10:00 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pythonで使えるGraphQLのライブラリを調査した</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-38/</link>
+      <pubDate>Fri, 13 Aug 2021 13:10:00 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-38/</guid>
+      <description>経緯 前から気になっていたGraphQLを使ってみたかったことが始まりです。
+今手元にはチュートリアルが終わって完成した FastAPI + SQLAlchemy 環境があるので、</description>
+    </item>
+    
     <item>
       <title> Pythonのソースの自動整形について</title>
       <link>https://practice-member.github.io/nandemo-output-blog/blog/post-37/</link>

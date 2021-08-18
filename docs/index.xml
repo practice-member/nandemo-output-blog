@@ -28,6 +28,16 @@ yapf １つ目は yapf になります。 google社が作成しています</des
     </item>
     
     <item>
+      <title>エラーログ確認方法の調査</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-36/</link>
+      <pubDate>Sun, 01 Aug 2021 14:10:51 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-36/</guid>
+      <description>FastAPIでのログ確認方法 いろいろ調べてみましたが自分の中でまとまりきらないので、気になったことなどをとにかく箇条書きにします。
+この記事をもとに勉強会メンバーの皆さんのお力を借りてまとめられたらと思っています。（半端な内容で申し訳ありません）</description>
+    </item>
+    
+    <item>
       <title>FastAPIでもホットリロードがしたい！</title>
       <link>https://practice-member.github.io/nandemo-output-blog/blog/post-35/</link>
       <pubDate>Sun, 01 Aug 2021 14:10:47 +0000</pubDate>

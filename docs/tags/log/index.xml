@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>log on 或いはバグでいっぱいのコード</title>
+    <link>https://practice-member.github.io/nandemo-output-blog/tags/log/</link>
+    <description>Recent content in log on 或いはバグでいっぱいのコード</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sun, 01 Aug 2021 14:10:51 +0000</lastBuildDate><atom:link href="https://practice-member.github.io/nandemo-output-blog/tags/log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>エラーログ確認方法の調査</title>
+      <link>https://practice-member.github.io/nandemo-output-blog/blog/post-36/</link>
+      <pubDate>Sun, 01 Aug 2021 14:10:51 +0000</pubDate>
+      
+      <guid>https://practice-member.github.io/nandemo-output-blog/blog/post-36/</guid>
+      <description>FastAPIでのログ確認方法 いろいろ調べてみましたが自分の中でまとまりきらないので、気になったことなどをとにかく箇条書きにします。
+この記事をもとに勉強会メンバーの皆さんのお力を借りてまとめられたらと思っています。（半端な内容で申し訳ありません）</description>
+    </item>
+    
+  </channel>
+</rss>

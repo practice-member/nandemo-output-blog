@@ -153,38 +153,50 @@
 <p>今手元にはチュートリアルが終わって完成した FastAPI + SQLAlchemy 環境があるので、</p>
 <p>今回はその環境を使う前提で、クライアントサイドで使うPython ライブラリを調査します。</p>
 <p>因みに Python は 3.9 を使用しています。</p>
-<h3 id="調査内容">調査内容</h3>
+<h3 id="スキーマファーストとコードファースト">スキーマファーストとコードファースト</h3>
+<p>GraphQL のライブラリを調べていくと、</p>
+<p>「スキーマファースト」と「コードファースト」という言葉をよく目にしました。</p>
+<p>「スキーマファースト」は、GraphQL SDLという言語でスキーマを定義します。</p>
+<p>バックエンドの言語やフレームワークに縛られない実装ができますが、</p>
+<p>SDL は言語機能的に貧弱なようで要件によっては物足りなくなるかもしれません。</p>
+<p>一方「コードファースト」は、バックエンドの実装言語でスキーマを定義します。</p>
+<p>SDL よりも柔軟な実装ができる一方で、バックエンドの言語に縛られてしまうデメリットがあります。</p>
+<p>ライフサイクルが長いシステムの場合や、APIサーバーを多数用意しなくてはならない大規模なシステムではスキーマファーストのほうが良いのかもしれないと思いました。</p>
+<p>個人開発ではコードファーストのほうが、ORマッパーとの連携がしやすかったりと手軽で使い勝手が良さそうです。</p>
+<h3 id="洗い出したライブラリの候補">洗い出したライブラリの候補</h3>
 <p>GraphQLの公式サイトを見てみると</p>
 <p><a href="https://graphql.org/code/#python">こちら</a>にPythonで使用できるライブラリが列挙されています。</p>
 <p>githubのスター数で並んでおり、上位3位は以下の3つです。</p>
 <ul>
-<li>graphene(グラフェン)</li>
-<li>ariadne(アリアドネ)</li>
-<li>strawberry</li>
+<li>Graphene(グラフェン)</li>
+<li>Ariadne(アリアドネ)</li>
+<li>Strawberry</li>
 </ul>
-<h4 id="-graphene">■ graphene</h4>
+<h4 id="-graphene">■ Graphene</h4>
 <ul>
 <li>MIT License</li>
 <li>27日前に最新リリース(調査時点)</li>
+<li>コードファースト</li>
 <li>star 6.7k</li>
 <li>Python 3.7 までサポート</li>
 <li>SQL (Django, SQLAlchemy), NoSQL, custom Python objectsなどのデータソースをサポート</li>
+<li>利用者が多く情報量が多いが、<a href="https://github.com/graphql-python/graphql-core#integration-with-other-libraries-and-roadmap">ここ</a> を読むと他の2つに比べてPython のエコシステムの変化についていけていない、とまでは言わないまでも遅れてそう。Phthon 3.7 までしかサポートしてないのはそのせい？</li>
 </ul>
 <p>github:  <a href="https://github.com/graphql-python/graphene">https://github.com/graphql-python/graphene</a></p>
 <p>pip:   <a href="https://pypi.org/project/graphene/">https://pypi.org/project/graphene/</a></p>
 <p>公式: <a href="https://graphene-python.org/">https://graphene-python.org/</a></p>
-<h4 id="-ariadne">■ ariadne</h4>
+<h4 id="-ariadne">■ Ariadne</h4>
 <ul>
 <li>BSD-3-Clause License</li>
 <li>5ヶ月前に最新リリース(調査時点)</li>
+<li>スキーマファースト</li>
 <li>star 1.5k</li>
 <li>Python 3.9 までサポート</li>
-<li>スキーマファーストという、GraphQLコミュニティで広く使用されている書き方ができる</li>
+<li>良いという評判もあまりないしかと言って悪いとも聞かない。スキーマファーストのライブラリを選ぶならこれかも。</li>
 </ul>
 <p>github:  <a href="https://github.com/mirumee/ariadne">https://github.com/mirumee/ariadne</a></p>
 <p>pip:   <a href="https://pypi.org/project/ariadne/">https://pypi.org/project/ariadne/</a></p>
 <p>公式: <a href="https://ariadnegraphql.org/">https://ariadnegraphql.org/</a></p>
-<h4 id="heading"></h4>
 <h4 id="-strawberry">■ Strawberry</h4>
 <ul>
 <li>
@@ -194,6 +206,9 @@
 <p>2日前に最新リリース(調査時点)</p>
 </li>
 <li>
+<p>コードファースト</p>
+</li>
+<li>
 <p>star 1.1k</p>
 </li>
 <li>
@@ -201,6 +216,9 @@
 </li>
 <li>
 <p>dataclasses(Python 3.7 の機能？)にインスパイアされたライブラリ</p>
+</li>
+<li>
+<p>Grapheneよりももっとコードファースト</p>
 </li>
 <li>
 <p>Python の型ヒントを使用した書式なので書きやすそう</p>
@@ -215,12 +233,13 @@
 <p>公式: <a href="https://strawberry.rocks/">https://strawberry.rocks/</a></p>
 <h3 id="結論みたいなもの">結論みたいなもの</h3>
 <p>SQLAlchemy をサポートしていると名言している点と、</p>
-<p>最も使われており情報が多いという点で graphene を選択してしまいました。</p>
-<p>してしまいました、というのも現時点で graphene は Python 3.7 までのサポートとなっており、</p>
+<p>最も使われており情報が多いという点で Graphene を選択してしまいました。</p>
+<p>してしまいました、というのも現時点で Graphene は Python 3.7 までのサポートとなっており、</p>
 <p>今私が使っている Python 3.9 をサポートしていないライブラリなんですよね。。。</p>
 <p>調査時点ではそれを失念して選んでしまいました。。。</p>
-<p>とりあえず graphene で実装してみて動いたのですが、</p>
-<p>ちょっと今後 ariadne や strawberry への変更が必要かもしれません。</p>
+<p>とりあえず Graphene で実装してみて動いたのですが、</p>
+<p>ちょっと今後 Ariadne や Strawberry への変更が必要かもしれません。</p>
+<p>大きな変更が入る可能性がある Strawberry よりも Ariadne ですかね。</p>
 
         </div>
 

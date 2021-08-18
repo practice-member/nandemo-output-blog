@@ -37,7 +37,33 @@ type: "post"
 
 
 
-### 調査内容   
+### スキーマファーストとコードファースト
+
+GraphQL のライブラリを調べていくと、  
+
+「スキーマファースト」と「コードファースト」という言葉をよく目にしました。     
+
+「スキーマファースト」は、GraphQL SDLという言語でスキーマを定義します。      
+
+バックエンドの言語やフレームワークに縛られない実装ができますが、  
+
+SDL は言語機能的に貧弱なようで要件によっては物足りなくなるかもしれません。    
+
+
+
+一方「コードファースト」は、バックエンドの実装言語でスキーマを定義します。    
+
+SDL よりも柔軟な実装ができる一方で、バックエンドの言語に縛られてしまうデメリットがあります。       
+
+
+
+ライフサイクルが長いシステムの場合や、APIサーバーを多数用意しなくてはならない大規模なシステムではスキーマファーストのほうが良いのかもしれないと思いました。            
+
+個人開発ではコードファーストのほうが、ORマッパーとの連携がしやすかったりと手軽で使い勝手が良さそうです。     
+
+
+
+### 洗い出したライブラリの候補   
 
 GraphQLの公式サイトを見てみると  
 
@@ -47,21 +73,21 @@ githubのスター数で並んでおり、上位3位は以下の3つです。
 
 
 
-* graphene(グラフェン)
-* ariadne(アリアドネ)
-* strawberry
+* Graphene(グラフェン)
+* Ariadne(アリアドネ)
+* Strawberry
 
 
 
-
-
-#### ■ graphene
+#### ■ Graphene
 
 * MIT License
 * 27日前に最新リリース(調査時点)
+* コードファースト
 * star 6.7k    
 * Python 3.7 までサポート
 * SQL (Django, SQLAlchemy), NoSQL, custom Python objectsなどのデータソースをサポート   
+* 利用者が多く情報量が多いが、[ここ](https://github.com/graphql-python/graphql-core#integration-with-other-libraries-and-roadmap) を読むと他の2つに比べてPython のエコシステムの変化についていけていない、とまでは言わないまでも遅れてそう。Phthon 3.7 までしかサポートしてないのはそのせい？     
 
 
 
@@ -73,13 +99,14 @@ pip:   https://pypi.org/project/graphene/
 
 
 
-#### ■ ariadne
+#### ■ Ariadne
 
 * BSD-3-Clause License
 * 5ヶ月前に最新リリース(調査時点)
+* スキーマファースト
 * star 1.5k    
 * Python 3.9 までサポート
-* スキーマファーストという、GraphQLコミュニティで広く使用されている書き方ができる
+* 良いという評判もあまりないしかと言って悪いとも聞かない。スキーマファーストのライブラリを選ぶならこれかも。  
 
 
 
@@ -91,8 +118,6 @@ pip:   https://pypi.org/project/ariadne/
 
 
 
-#### 
-
 
 
 #### ■ Strawberry
@@ -101,11 +126,15 @@ pip:   https://pypi.org/project/ariadne/
 
 * 2日前に最新リリース(調査時点)
 
+* コードファースト
+
 * star 1.1k    
 
 * Python 3.9 までサポート
 
 * dataclasses(Python 3.7 の機能？)にインスパイアされたライブラリ   
+
+* Grapheneよりももっとコードファースト
 
 * Python の型ヒントを使用した書式なので書きやすそう     
 
@@ -131,9 +160,9 @@ pip:   https://pypi.org/project/strawberry-graphql/
 
 SQLAlchemy をサポートしていると名言している点と、
 
-最も使われており情報が多いという点で graphene を選択してしまいました。   
+最も使われており情報が多いという点で Graphene を選択してしまいました。   
 
-してしまいました、というのも現時点で graphene は Python 3.7 までのサポートとなっており、   
+してしまいました、というのも現時点で Graphene は Python 3.7 までのサポートとなっており、   
 
 今私が使っている Python 3.9 をサポートしていないライブラリなんですよね。。。
 
@@ -141,7 +170,15 @@ SQLAlchemy をサポートしていると名言している点と、
 
 
 
-とりあえず graphene で実装してみて動いたのですが、   
+とりあえず Graphene で実装してみて動いたのですが、    
 
-ちょっと今後 ariadne や strawberry への変更が必要かもしれません。     
+ちょっと今後 Ariadne や Strawberry への変更が必要かもしれません。     
+
+
+
+大きな変更が入る可能性がある Strawberry よりも Ariadne ですかね。      
+
+
+
+
 

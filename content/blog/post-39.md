@@ -8,10 +8,10 @@ author:
  - "Kawaken555"
 
 # post thumb
-image: "images/post/post-39/	post-39.jpg"
+image: "images/post/post-39/post-39.jpg"
 
 # meta description
-description: ""
+description: "PythonのLintツールと自動整形ツールを導入してみた"
 
 # taxonomies
 categories: 
